@@ -1,0 +1,3449 @@
+{
+  "locale": "id-ID",
+  "messages": {
+    "Language": "Bahasa",
+    "msgId0": "{name} mengambil {numPhotos, plural, =0 {tidak ada foto} =1 {satu foto} lainnya {",
+    "htmlTest": "{nama} {nama belakang}",
+    "about_title": "Tentang",
+    "aboutTooltip": "Tentang",
+    "aboutLbl": "Tentang",
+    "about_p0-0": "MapStore adalah framework untuk membangun aplikasi pemetaan web menggunakan pustaka pemetaan standar, seperti",
+    "about_p0-1": "dan",
+    "about_p1": "MapStore memiliki beberapa contoh aplikasi:",
+    "about_ul0_li0": "MapViewer adalah penampil sederhana dari peta yang telah dikonfigurasi sebelumnya (opsional disimpan dalam database menggunakan GeoStore)",
+    "about_ul0_li1": "MapPublisher telah dikembangkan untuk membuat, menyimpan, dan berbagi dengan cara yang sederhana dan intuitif peta dan mashup dibuat dengan memilih konten yang berasal dari sumber terkenal seperti Google Maps dan OpenStreetMap atau dari layanan yang disediakan oleh organisasi yang menggunakan protokol terbuka seperti OGC WMS, WFS, WMTS atau ",
+    "about_h20": "Lisensi",
+    "about_p3": "MapStore adalah perangkat lunak Gratis dan Sumber Terbuka, didasarkan pada OpenLayers, Leaflet, dan ReactJS, dan dilisensikan di bawah Lisensi BSD Sederhana.",
+    "about_p5-0": "Untuk informasi lebih lanjut, periksa",
+    "about_a0": "ini",
+    "about_p5-1": "halaman.",
+    "about_h21": "Kredit",
+    "about_p6": "MapStore dibuat oleh:",
+    "enable": "Memungkinkan",
+    "layers": "Lapisan",
+    "warning": "Peringatan",
+    "errorTitleDefault": "Kesalahan",
+    "errorDefault": "Terjadi kesalahan.",
+    "pageInfoShowMore": "Hasil {count} dari {total}",
+    "showMore": "Menampilkan lebih banyak...",
+    "collapse": "Runtuh",
+    "expand": "Mengembangkan",
+    "Links": "Tautan",
+    "Forbidden": "Terlarang",
+    "layerNameChangeError": {
+      "title": "Kesalahan ganti nama",
+      "message": "Lapisan gagal dimuat ulang dengan nama yang diubah"
+    },
+    "version": {
+      "label": "Versi: kapan"
+    },
+    "errorPage": {
+      "title": "Ups, ada yang salah...",
+      "subtitle": "Silakan klik ikon di bawah untuk memuat ulang MapStore",
+      "description": "Jika Anda ingin melaporkan kesalahan ini, Anda dapat mengirim email ke milis kami",
+      "descriptionAdmin": "Silakan hubungi administrator"
+    },
+    "autorefresh": {
+      "of": "dari",
+      "updating": "Memperbarui...",
+      "layers": "lapisan"
+    },
+    "localeErrors": {
+      "404": "File terjemahan tidak ditemukan"
+    },
+    "details": {
+      "title": "Tentang peta ini",
+      "tooltip": "Tentang peta ini"
+    },
+    "showEmptyMessageGFI": "Tampilkan pesan hasil kosong di panel GetFeatureInfo",
+    "remove": "Menghapus",
+    "removeThumbnail": "Hapus gambar kecil",
+    "layerProperties": {
+      "windowTitle": "Properti Lapisan",
+      "title": "Judul",
+      "name": "Nama",
+      "group": "Kelompok",
+      "general": "Umum",
+      "description": "Keterangan",
+      "display": "Menampilkan",
+      "style": "Gaya",
+      "transparent": "Transparan",
+      "singleTile": "Ubin Tunggal",
+      "cached": "Gunakan opsi cache",
+      "styleCustom": "Gunakan gaya bernama \"{value}\"",
+      "styleListLoadError": "Terjadi kesalahan saat memuat daftar gaya",
+      "stylesRefreshList": "Segarkan Daftar Gaya",
+      "delete": "Menghapus",
+      "deleteLayer": "Hapus Lapisan",
+      "deleteLayerMessage": "Apakah Anda benar-benar ingin menghapus lapisan ini?",
+      "deleteLayerGroup": "Hapus Grup",
+      "deleteLayerGroupMessage": "Yakin ingin menghapus grup ini dan semua lapisannya?",
+      "confirmDelete": "Apa kamu yakin?",
+      "featureTypeError": "Tidak dapat memuat atribut lapisan",
+      "featureTypeErrorInvalidJSON": "Tidak dapat memuat atribut lapisan. ",
+      "elevation": "Ketinggian",
+      "titleTranslations": "Terjemahan judul",
+      "groupProperties": "Properti grup",
+      "featureInfo": "Info Fitur",
+      "featureInfoFormatLbl": "Identifikasi format respons",
+      "legenderror": "Legenda tidak tersedia",
+      "editCustomFormat": "Edit format khusus",
+      "exampleOfResponse": "Contoh",
+      "changedSettings": "Pengaturan yang Diubah",
+      "changedSettingsAlert": "Anda menutup panel pengaturan tanpa menyimpan perubahan Anda",
+      "textFormatTitle": "TEKS",
+      "textFormatDescription": "Menampilkan hasil info fitur sebagai teks biasa",
+      "htmlFormatTitle": "HTML",
+      "htmlFormatDescription": "Menampilkan hasil info fitur sebagai html",
+      "propertiesFormatTitle": "PROPERTI",
+      "propertiesFormatDescription": "Menampilkan hasil info fitur sebagai daftar properti",
+      "templateFormatTitle": "TEMPLAT",
+      "templateFormatDescription": "Sesuaikan format hasil info fitur",
+      "hideFormatTitle": "NONAKTIFKAN IDENTIFIKASI",
+      "hideFormatDescription": "Nonaktifkan info fitur untuk lapisan ini",
+      "styleWarning": "Editor gaya lapisan untuk tipe geometri '{geometryType}' tidak didukung.",
+      "templateFormatInfoAlert1": "Klik tombol edit untuk menambahkan template baru.",
+      "templateFormatInfoAlert2": "Gunakan ${ atribut } untuk membungkus properti yang perlu Anda tampilkan",
+      "templateFormatInfoAlertExample": "ID dari fitur tersebut adalah <span style='white-space:nowrap'>${ properti.id }</span> atau <span style='white-space:nowrap'>${ properti['nilai-data'] }</span>",
+      "templateError": "Terjadi kesalahan saat menerapkan template ke informasi yang dikembalikan oleh server, harap periksa template",
+      "templatePreview": "Pratinjau templat",
+      "visibilityLimits": {
+        "title": "Batas visibilitas",
+        "serverValuesUpdateUndefined": "Server tidak memberikan batas visibilitas skala untuk lapisan ini",
+        "serverValuesUpdate": "Server memberikan batas visibilitas skala minimum dan maksimum untuk lapisan ini",
+        "serverValuesUpdateMinScale": "Server hanya menyediakan batas visibilitas skala minimum untuk lapisan ini",
+        "serverValuesUpdateMaxScale": "Server hanya menyediakan batas visibilitas skala maksimum untuk lapisan ini",
+        "rangeError": "Nilai minimum lebih besar dari nilai maksimum. ",
+        "serverValuesError": "Tidak mungkin untuk meminta batas visibilitas skala minimum dan maksimum ke server. ",
+        "updateWMSCapabilities": "Meminta batas visibilitas skala minimum dan maksimum ke server",
+        "maxValue": "Nilai maks (dikecualikan)",
+        "maxValuePlaceholder": "Pilih nilai maks",
+        "valueNoResultsText": "Tidak ada opsi yang cocok dengan nilai masukan",
+        "createOption": "Tambahkan nilai baru {label}",
+        "minValue": "Nilai min (termasuk)",
+        "minValuePlaceholder": "Pilih nilai min",
+        "type": "Jenis batas",
+        "scale": "Skala",
+        "resolution": "Resolusi"
+      },
+      "tooltip": {
+        "label": "Keterangan alat",
+        "title": "Judul",
+        "description": "Keterangan",
+        "both": "Judul dan Deskripsi",
+        "none": "Tanpa keterangan alat",
+        "labelPlacement": "Penempatan",
+        "right": "Benar",
+        "left": "Kiri",
+        "bottom": "Bawah",
+        "top": "Atas",
+        "editLayerName": "Edit nama lapisan",
+        "confirmLayerName": "Konfirmasi perubahan nama lapisan"
+      },
+      "legendOptions": {
+        "title": "Legenda",
+        "legendWidth": "Lebar",
+        "legendHeight": "Tinggi",
+        "legendPreview": "Pratinjau"
+      },
+      "enableLocalizedLayerStyles": {
+        "label": "Aktifkan gaya lokal",
+        "tooltip": "Catatan: Parameter ini memerlukan konfigurasi khusus pada GeoServer"
+      },
+      "format": {
+        "title": "Format",
+        "refresh": "Ambil format yang didukung",
+        "loading": "Memuat...",
+        "noOption": "Tidak ada pilihan",
+        "error": {
+          "title": "Kesalahan",
+          "message": "Gagal mengambil format"
+        }
+      }
+    },
+    "longitude": "Lon",
+    "latitude": "Lat",
+    "notification": {
+      "update": "Memperbarui",
+      "warning": "Peringatan",
+      "success": "Kesuksesan",
+      "backgroundLayerNotSupported": "Latar belakang yang dipilih sebelumnya tidak didukung untuk jenis peta ini. ",
+      "noBackgroundLayerSupported": "Tidak ada lapisan latar belakang yang didukung untuk jenis peta ini.",
+      "updateOldMap": "Ini adalah peta lama, sehingga tidak semua fungsi dapat diaktifkan. ",
+      "warningSaveUpdatedMap": "Beberapa lapisan belum diperbarui dengan benar.",
+      "saveUpdatedMap": "Semua lapisan telah berhasil diperbarui.",
+      "incompatibleBackgroundAndProjection": "Proyeksi yang Anda pilih tidak kompatibel dengan latar belakang. ",
+      "incompatibleDataAndProjection": "Lapisan saat ini dan proyeksi peta tidak sepenuhnya kompatibel. "
+    },
+    "dock": {
+      "row": "Baris {rowsSelected} dipilih",
+      "rows": "{rowsSelected} baris dipilih"
+    },
+    "globeswitcher": {
+      "tooltipDeactivate": "Keluar dari Mode 3D",
+      "tooltipActivate": "Masuk ke Mode 3D"
+    },
+    "cookie": {
+      "info": "Situs web ini menggunakan cookie untuk meningkatkan pengalaman Anda. ",
+      "moreDetailsButton": "Keterangan lebih lanjut",
+      "leave": "Meninggalkan",
+      "accept": "Menerima"
+    },
+    "background": "Latar belakang",
+    "language": "Bahasa",
+    "mousePositionCoordinates": "Koordinat kursor",
+    "mouseCoordinates": "Koordinat:",
+    "mousePositionCRS": "CRS:",
+    "mousePositionElevation": "Ketinggian:",
+    "mousePositionNoElevation": "T/A",
+    "elevationLoading": "Memuat...",
+    "elevationLoadingError": "Kesalahan",
+    "elevationNotAvailable": "T/A",
+    "mapScale": "Skala:",
+    "showMousePositionCoordinates": "Tampilkan/Sembunyikan koordinat",
+    "showCrsSelector": "Pilih proyeksi",
+    "crsSelectorFilterPlaceholder": "Filter proyeksi",
+    "crsSelectorSelectedCRS": "Terpilih:",
+    "menu": "Menu",
+    "options": "Pilihan",
+    "settings": "Pengaturan",
+    "settingsTooltip": "Pengaturan",
+    "help": "Membantu",
+    "docs": "Dokumen",
+    "docsTooltip": "Dokumen",
+    "gohome": "Kembali ke halaman rumah",
+    "back": "Kembali ke Importir",
+    "printbutton": "Mencetak",
+    "printToolTip": "Mencetak",
+    "annotationsbutton": "Anotasi",
+    "noresultfound": "Tidak ada Hasil yang ditemukan",
+    "save": "Menyimpan",
+    "saveAs": "Simpan Sebagai...",
+    "opacity": "Kegelapan",
+    "elevation": "Ketinggian",
+    "close": "Menutup",
+    "cancel": "Membatalkan",
+    "no": "Tidak",
+    "yes": "Ya",
+    "confirm": "Mengonfirmasi",
+    "confirmTitle": "Apakah Anda mengkonfirmasi?",
+    "pageInfo": "{total, plural, =0 {No items} =1 {{total} item of {total}} other {Item {start}-{end} of {total}}}",
+    "loading": "Memuat...",
+    "group": "Kelompok",
+    "groups": "Grup",
+    "permission": "Izin",
+    "permissions": "Izin",
+    "global": {
+      "colors": {
+        "red": "{angka, jamak, =0 {Merah} =1 {Merah} lainnya {Merah}}",
+        "blue": "{angka, jamak, =0 {Biru} =1 {Biru} lainnya {Biru}}",
+        "green": "{angka, jamak, =0 {Hijau} =1 {Hijau} lainnya {Hijau}}",
+        "gray": "{angka, jamak, =0 {Abu-abu} =1 {Abu-abu} lainnya {Abu-abu}}",
+        "jet": "{angka, jamak, =0 {Jet} =1 {Jet} lainnya {Jet}}",
+        "brown": "{angka, jamak, =0 {Cokelat} =1 {Cokelat} lainnya {Cokelat}}",
+        "purple": "{angka, jamak, =0 {Ungu} =1 {Ungu} lainnya {Ungu}}",
+        "random": "{angka, jamak, =0 {Acak} =1 {Acak} lainnya {Acak}}",
+        "orrd": "OrRd",
+        "pubu": "PuBu",
+        "bupu": "BuPu",
+        "oranges": "Jeruk",
+        "bugn": "Bug",
+        "ylorbr": "YlOrBr",
+        "ylgn": "YlGn",
+        "reds": "Merah",
+        "rdpu": "RdPu",
+        "greens": "Sayuran hijau",
+        "ylgnbu": "YlGnBu",
+        "purples": "Ungu",
+        "gnbu": "GnBu",
+        "greys": "Abu-abu",
+        "ylorrd": "YlOrRd",
+        "purd": "PuRd",
+        "blues": "Biru",
+        "pubugn": "PuBuGn",
+        "viridis": "Viridis",
+        "spectral": "Spektral",
+        "rdylgn": "RdYlGn",
+        "rdbu": "RdBu",
+        "piyg": "PiYg",
+        "prgn": "PRGn",
+        "rdylbu": "RdYlBu",
+        "brbg": "BrBg",
+        "rdgy": "RdGy",
+        "puor": "PuOr",
+        "set2": "Atur 2",
+        "accent": "Aksen",
+        "set1": "Tetapkan 1",
+        "set3": "Tetapkan 3",
+        "dark2": "Gelap 2",
+        "paired": "Berpasangan",
+        "pastel2": "Pastel 2",
+        "pastel1": "Pastel 1",
+        "custom": "Kebiasaan"
+      }
+    },
+    "home": {
+      "open": "Membuka",
+      "shortDescription": "<strong>Menuju Transisi</strong><br/><strong>Rendah Energi Karbon</strong>",
+      "forkMeOnGitHub": "Garpu saya di GitHub",
+      "description": "MapStore telah dikembangkan untuk membuat, menyimpan, dan berbagi dengan cara yang sederhana dan intuitif peta dan mashup dibuat dengan memilih konten yang berasal dari sumber terkenal seperti OpenStreetMap, Google Maps atau dari layanan yang disediakan oleh organisasi yang menggunakan protokol terbuka seperti OGC WMS, WFS, WMTS atau <br/>Mengunjungi <a href=\"https://mapstore.readthedocs.io/en/latest/\">halaman rumah</a> untuk lebih jelasnya.",
+      "Applications": "Aplikasi",
+      "Examples": "Contoh",
+      "LinkedinGroup": "Grup Linkedin Mapstore",
+      "scrollTop": "Gulir ke bagian atas halaman",
+      "footerDescription": "<strong>Contact Us</strong><br>Ratu Plaza Office Tower, 19th. Floor | Jl. Jend. Sudirman Kav. 9 Jakarta 10270, Indonesia<br><a href=\"mailto:contact@mentari.info\">contact@mentari.info</a>",
+      "ml": {
+        "title": "Tetap berhubungan dan tetap up-to-date dengan milis",
+        "subscribe_users": "Berlangganan Milis Pengguna",
+        "subscribe_devel": "Berlangganan Milis Pengembang",
+        "visit_group": "Kunjungi grup ini",
+        "subscribe": "Langganan",
+        "email": "Surel:"
+      }
+    },
+    "cookiesPolicyNotification": {
+      "title": "Situs web ini menggunakan cookie",
+      "message": "Dengan terus menggunakan situs web kami, Anda menerima penggunaan cookie kami.",
+      "confirm": "Saya setuju"
+    },
+    "manager": {
+      "managerMenu": "menu manajer",
+      "openInANewTab": "Buka peta",
+      "deleteMap": "Hapus Peta",
+      "deleteMapMessage": "Yakin ingin menghapus peta ini?",
+      "editMapMetadata": "Edit properti peta",
+      "mapTypes_combo": "Pilih penampil peta: ",
+      "theme_combo": "Pilih tema:",
+      "maps_title": "Peta",
+      "locales_combo": "Bahasa:",
+      "featuredMaps": "Unggulan"
+    },
+    "newMap": "Peta baru",
+    "newMapEmpty": "Peta kosong",
+    "newMapContext": "Konteks yang ada",
+    "maps": {
+      "title": "Peta",
+      "addToFeaturedMaps": "Tambahkan ke peta unggulan",
+      "removeFromFeaturedMaps": "Hapus dari peta unggulan",
+      "feedback": {
+        "noDetailsAvailable": "Detail peta tidak tersedia",
+        "successSavedMap": "Peta telah dibuat dengan benar",
+        "errorDeletingMap": "Terjadi kesalahan saat menghapus peta ini",
+        "errorDeletingThumbnailOfMap": "Terjadi kesalahan saat menghapus thumbnail untuk peta ini",
+        "errorDeletingDetailsOfMap": "Terjadi kesalahan saat menghapus detail untuk peta ini",
+        "allResDeleted": "Semua sumber daya yang terkait dengan peta ini telah berhasil dihapus",
+        "errorFetchingDetailsOfMap": "Terjadi kesalahan saat mengambil detail untuk peta ini",
+        "details": {
+          "deletedSuccesfully": "Detail telah dihapus dengan benar",
+          "savedSuccesfully": "Detailnya telah disimpan dengan benar",
+          "updatedSuccesfully": "Detail telah diperbarui dengan benar"
+        },
+        "thumbnail": {
+          "deletedSuccesfully": "Thumbnail telah dihapus dengan benar",
+          "savedSuccesfully": "Thumbnail telah disimpan dengan benar",
+          "updatedSuccesfully": "Thumbnail telah diperbarui dengan benar"
+        },
+        "errorWhenSaving": "Terjadi kesalahan selama proses penyimpanan",
+        "errorWhenUpdating": "Terjadi kesalahan selama proses pembaruan",
+        "errorWhenDeleting": "Terjadi kesalahan selama proses penghapusan",
+        "errorSizeExceeded": "Tolong, kurangi ukuran atau kualitas gambar",
+        "errorLoadingContexts": "Terjadi kesalahan selama pemuatan konteks"
+      },
+      "search": "Cari..."
+    },
+    "resources": {
+      "successSaved": "Sumber daya ini telah disimpan dengan benar",
+      "savingError": "Terjadi kesalahan saat menyimpan sumber daya",
+      "deleteConfirmTitle": "Apa kamu yakin",
+      "deleteConfirmMessage": "Yakin ingin menghapus sumber daya ini?",
+      "deleteConfirmButtonText": "Menghapus",
+      "deleteCancelButtonText": "Menutup",
+      "resource": {
+        "deleteResource": "Menghapus",
+        "editResource": "Mengedit properti",
+        "editResourceData": "Mengedit data sumber daya",
+        "addToFeatured": "Tambahkan ke unggulan",
+        "removeFromFeatured": "Hapus dari unggulan",
+        "showDetails": "Tampilkan detail"
+      },
+      "contents": {
+        "title": "Isi"
+      },
+      "dashboards": {
+        "newDashboard": "Dasbor baru",
+        "title": "Dasbor ({count})",
+        "titleNoCount": "Dasbor",
+        "create": "Buat dasbor",
+        "noDashboardAvailable": "Tidak ada dasbor yang tersedia",
+        "createANewOne": "Buat yang baru",
+        "deleteError": "Terjadi kesalahan saat menghapus dasbor.",
+        "errorLoadingDashboards": "Terjadi kesalahan saat memuat dasbor."
+      },
+      "maps": {
+        "title": "Peta ({count})",
+        "noMapAvailable": "Tidak ada peta yang tersedia",
+        "createNewOne": "Buat yang baru",
+        "unsavedMapConfirmTitle": "Perubahan belum disimpan",
+        "unsavedMapConfirmMessage": "Yakin ingin meninggalkan perubahan yang belum disimpan?",
+        "unsavedMapConfirmButtonText": "Meninggalkan",
+        "unsavedMapCancelButtonText": "Menutup"
+      },
+      "geostories": {
+        "newGeostory": "GeoStory Baru",
+        "title": "GeoStories ({count})",
+        "titleNoCount": "GeoStories",
+        "create": "Buat GeoStory",
+        "noGeostoryAvailable": "Tidak ada GeoStory yang tersedia",
+        "createANewOne": "Buat yang baru",
+        "deleteError": "Terjadi kesalahan saat menghapus GeoStory",
+        "errorLoadingGeostories": "Terjadi kesalahan saat memuat GeoStories"
+      },
+      "contexts": {
+        "title": "Konteks ({count})",
+        "titleNoCount": "Konteks",
+        "noContextAvailable": "Tidak ada konteks yang tersedia"
+      }
+    },
+    "map": {
+      "errorLoadingFont": "Keluarga font {family} tidak dimuat dengan benar. ",
+      "loading": "Memuat...",
+      "loadingSpinner": "Memuat peta",
+      "loadingerror": "Kesalahan saat memuat peta",
+      "name": "Nama",
+      "description": "Keterangan",
+      "namePlaceholder": "Nama peta",
+      "descriptionPlaceholder": "Deskripsi peta",
+      "saveTitle": "Simpan peta",
+      "saveText": "Simpan peta saat ini?",
+      "thumbnail": "Gambar kecil",
+      "message": "Jatuhkan atau klik untuk mengimpor gambar",
+      "suggestion": "(300 px X 180 px terbaik, maks 500 kb)",
+      "errorFormat": "Format yang didukung: png/jpg",
+      "errorSize": "Ukuran maksimum yang diizinkan: 500 kb",
+      "errorCustomSize": "Ukuran maksimum yang diizinkan: {maxFileSize}",
+      "error": "Gambar yang diberikan tidak valid",
+      "savedMapTitle": "Peta Tersimpan",
+      "savedMapMessage": "Peta telah disimpan dengan benar.",
+      "thumbnailError": {
+        "error403": "Anda tidak diizinkan memperbarui thumbnail",
+        "error404": "Terjadi kesalahan saat membuat thumbnail",
+        "error409": "Thumbnail dengan nama ini sudah ada",
+        "errorDefault": "Kesalahan jaringan"
+      },
+      "mapError": {
+        "errorTitle": "Tidak dapat menyimpan peta saat ini",
+        "error403": "Anda tidak diizinkan memperbarui peta",
+        "error404": "Terjadi kesalahan saat membuat peta di server",
+        "error409": "Sumber daya dengan nama ini sudah ada",
+        "error500": "Kesalahan server dari dalam. ",
+        "errorDefault": "Kesalahan jaringan"
+      },
+      "permissions": {
+        "noRules": "Tidak ada peraturan",
+        "addRule": "Tambahkan aturan...",
+        "selectGroup": "Pilih grup...",
+        "canView": "dapat melihat",
+        "canWrite": "dapat mengedit",
+        "noResult": "Tidak ada hasil yang ditemukan",
+        "title": "Izin grup"
+      },
+      "details": {
+        "back": "Kembali",
+        "save": "Menyimpan",
+        "show": "Tampilkan lembar detail",
+        "add": "Tambahkan detail baru",
+        "edit": "Mengedit detail",
+        "rowTitle": "Lembar detail",
+        "title": "Lembar Detail - {name}",
+        "undo": "Urungkan hapus",
+        "showPreview": "Tampilkan pratinjau",
+        "hidePreview": "Sembunyikan pratinjau",
+        "delete": "Hapus lembar detail",
+        "titleUnsavedChanges": "Apakah Anda yakin untuk menutup tanpa menyimpan perubahan Anda?",
+        "sureToClose": "Apakah Anda yakin untuk menutup tanpa menyimpan perubahan Anda?",
+        "fieldsChanged": "Beberapa atribut telah diubah",
+        "showAtStartup": "Tampilkan saat startup",
+        "showAsModal": "Tampilkan sebagai modal"
+      },
+      "errors": {
+        "loading": {
+          "notFound": "Peta tidak ditemukan",
+          "notAccessible": "Peta tidak dapat diakses",
+          "unknownError": "<p><small>Salah satu alasan berikut bisa menjadi penyebabnya:</small> <ul><li>Anda tidak memiliki izin untuk mengakses peta</li> <li>Anda mencoba mengakses peta yang tidak ada</li> <li>peta telah dihapus</li> <li>proyeksi peta tidak dikonfigurasi</li></ul> <p>",
+          "projectionError": "Proyeksi {proyeksi} peta tidak dikonfigurasi",
+          "title": "Peta tidak dapat dilihat"
+        }
+      }
+    },
+    "floatinglegend": {
+      "showTOC": "Tampilkan lapisan",
+      "showLegend": "Tunjukkan legenda",
+      "hideLegend": "Sembunyikan legenda"
+    },
+    "addgroup": {
+      "addbtn": "Menambahkan",
+      "groupName": "Nama grup"
+    },
+    "toc": {
+      "toggleLayerVisibility": "Alihkan visibilitas lapisan",
+      "toggleGroupVisibility": "Alihkan visibilitas grup",
+      "displayLegendAndTools": "Tampilkan legenda",
+      "zoomToLayerExtent": "Perbesar hingga batas lapisan",
+      "addLayer": "Tambahkan lapisan",
+      "addLayerToGroup": "Tambahkan lapisan ke grup yang dipilih",
+      "addGroup": "Tambahkan grup",
+      "addSubGroup": "Tambahkan subgrup ke grup yang dipilih",
+      "toolZoomToLayerTooltip": "Perbesar hingga batas lapisan yang dipilih",
+      "toolZoomToLayersTooltip": "Perbesar hingga batas lapisan yang dipilih",
+      "toolLayerSettingsTooltip": "Pengaturan lapisan yang dipilih",
+      "toolGroupSettingsTooltip": "Pengaturan grup yang dipilih",
+      "toolTrashLayerTooltip": "Hapus lapisan yang dipilih",
+      "toolTrashLayersTooltip": "Hapus lapisan yang dipilih",
+      "toolTrashGroupTooltip": "Hapus grup yang dipilih",
+      "toolFeaturesGridTooltip": "Buka tabel atribut",
+      "layerFilterTooltip": "Lapisan penyaring",
+      "toolDownloadTooltip": "Ekspor data lapisan",
+      "noFilteredResults": "Tidak ada hasil",
+      "filterPlaceholder": "Lapisan filter",
+      "clearFilter": "Hapus filter",
+      "toolReloadLayerTooltip": "Paksa memuat ulang lapisan yang dipilih",
+      "toolReloadLayersTooltip": "Paksa memuat ulang lapisan yang dipilih",
+      "statusIconOpen": "Tutup grup",
+      "statusIconClose": "Grup terbuka",
+      "grabLayerIcon": "Ambil dan sortir layer",
+      "grabGroupIcon": "Ambil dan sortir grup",
+      "toggleLayerVisibilityWarning": "Alihkan visibilitas lapisan. ",
+      "createWidget": "Buat widget untuk lapisan yang dipilih",
+      "editLayerProperties": "Edit properti lapisan",
+      "browseData": "Buka Tabel Atribut",
+      "removeLayer": "Hapus lapisan",
+      "loadingerror": "Lapisan belum dimuat dengan benar atau tidak tersedia.",
+      "measure": "Ukuran",
+      "layers": "Lapisan",
+      "drawerButton": "Lapisan",
+      "refreshTitle": "Perbarui lapisan",
+      "refreshConfirm": "Memperbarui",
+      "refreshMessage": "Muat ulang konfigurasi lapisan WMS dari server",
+      "refreshError": "Galat memperbarui lapisan: ",
+      "epsgNotSupported": "CRS {epsg} tidak didukung untuk memperbesar ke lapisan",
+      "compareTool": "Bandingkan alat",
+      "configureTool": "Konfigurasi",
+      "spyconfiguration": "Konfigurasi teropong",
+      "swipeconfiguration": "Geser konfigurasi",
+      "swipe": "Geser",
+      "spyGlass": "Kaca mata-mata",
+      "direction": "Geser arah",
+      "radius": "Radius",
+      "filterIconEnabled": "Nonaktifkan filter lapisan",
+      "filterIconDisabled": "Aktifkan filter lapisan",
+      "notVisibleZoomIn": "Lapisan tersebut tidak terlihat karena berada di luar batas resolusi. ",
+      "notVisibleZoomOut": "Lapisan tersebut tidak terlihat karena berada di luar batas resolusi. ",
+      "refreshOptions": {
+        "bbox": "Perbarui BBOX",
+        "search": "Perbarui opsi pencarian",
+        "title": "Perbarui judul",
+        "dimensions": "Perbarui dimensi"
+      },
+      "layerInfoTooltip": "Perbarui judul dan deskripsi lapisan",
+      "layerMetadata": {
+        "identifier": "Pengenal",
+        "title": "Judul",
+        "abstract": "Abstrak",
+        "purpose": "Tujuan",
+        "source": "Sumber",
+        "createdDate": "Tanggal pembuatan",
+        "lastRevisionDate": "Tanggal revisi terakhir",
+        "pointsOfContact": "Titik kontak",
+        "individualName": "Nama individu",
+        "organisationName": "Nama organisasi",
+        "contactInfo": "Info kontak",
+        "phone": "Nomor telepon",
+        "deliveryPoints": "Poin pengiriman",
+        "city": "Kota",
+        "postalCode": "Kode Pos",
+        "country": "Negara",
+        "URL": "URL",
+        "metadataUrl": "URL metadata",
+        "role": "Wewenang",
+        "hoursOfService": "Jam layanan",
+        "electronicMailAddress": "Alamat email",
+        "subject": "Subjek",
+        "type": "Jenis",
+        "creator": "Pencipta",
+        "defaultPropName": "Properti=\"{propName}\"",
+        "toolLayerMetadataTooltip": "Tampilkan metadata lapisan yang dipilih",
+        "layerMetadataPanelTitle": "Metadata lapisan",
+        "notification": {
+          "warnigGetMetadataRecordById": "Kesalahan dalam pencarian metadata"
+        },
+        "itemTitles": {
+          "pointsOfContact": "Kontak",
+          "default": "Barang"
+        },
+        "emptyMetadata": "Metadata tidak tersedia"
+      },
+      "thematic": {
+        "classification_field": "Bidang klasifikasi:",
+        "classification_method": "Metode klasifikasi:",
+        "classification_aggregate": "Fungsi agregat:",
+        "classification_colors": "Jalur warna:",
+        "classification_intervals": "Interval:",
+        "preview": "Pratinjau",
+        "remove_thematic": "Kembali ke gaya sederhana",
+        "values": {
+          "equalInterval": "Interval yang sama",
+          "quantile": "Kuantil",
+          "jenks": "Istirahat alami",
+          "sum": "Jumlah",
+          "avg": "Rata-rata",
+          "count": "Menghitung",
+          "min": "Min",
+          "max": "Maks"
+        },
+        "configuration": "Konfigurasi",
+        "apply": "Terapkan klasifikasi",
+        "restore": "Setel ulang penyesuaian",
+        "go_to_cfg": "Konfigurasi...",
+        "go_to_thema": "Gunakan konfigurasi ini",
+        "cfgError": "Kesalahan dalam konfigurasi JSON",
+        "classify": "Menggolongkan",
+        "remove": "Hapus klasifikasi",
+        "data_panel": "Data",
+        "classification_stroke": "Stroke",
+        "classification_error": "Kesalahan memanggil layanan klasifikasi: {message}",
+        "fields_error": "Kesalahan memuat daftar kolom: {message}",
+        "interval_limit": "Interval harus berupa angka antara {min} dan {max}",
+        "invalid_object": "Tanggapan layanan tidak valid",
+        "invalid_geometry": "Jenis geometri tidak valid, bukan titik, garis, atau poligon",
+        "invalid_attribute": "Jenis atribut yang dipilih tidak valid. ",
+        "invalid_classes": "Maks harus lebih besar dari min di setiap kelas"
+      },
+      "error": {
+        "defaultGroupOnTop": "Grup {groupTitle} ditetapkan sebagai grup target default, oleh karena itu harus tetap di atas"
+      }
+    },
+    "print": {
+      "paneltitle": "Mencetak",
+      "layout": "Tata letak",
+      "sheetsize": "Ukuran lembar:",
+      "legendoptions": "Opsi legenda",
+      "submit": "Mencetak",
+      "title": "Judul",
+      "titleplaceholder": "Masukkan judul...",
+      "description": "Keterangan",
+      "descriptionplaceholder": "Masukkan deskripsi...",
+      "resolution": "Resolusi:",
+      "defaultBackground": "Gunakan latar belakang default",
+      "printtooltip": "Mencetak",
+      "alternatives": {
+        "legend": "Sertakan legenda",
+        "2pages": "Legenda di halaman berbeda",
+        "landscape": "Lanskap",
+        "portrait": "Potret"
+      },
+      "legend": {
+        "font": "Konfigurasi Label:",
+        "forceLabels": "Label Paksa:",
+        "antiAliasing": "Font Anti Aliasing:",
+        "iconsSize": "Ukuran ikon:",
+        "dpi": "Dpi:"
+      },
+      "layoutWarning": "Tidak diperbolehkan tata letak",
+      "scale": "Skala",
+      "includeScale": "Sertakan dalam cetakan",
+      "disabledpreview": "Pratinjau tidak tersedia dengan parameter cetak ini",
+      "outputFormat": "Format",
+      "previewFormatUnsupported": "Format pratinjau tidak didukung",
+      "projection": "Sistem Koordinat",
+      "projectionmismatch": "Ketidakcocokan sistem koordinat antara peta cetak dan layar",
+      "graticule": "tambahkan kisi dengan label"
+    },
+    "backgroundSwitcher": {
+      "tooltip": "Pilih Latar Belakang"
+    },
+    "info": {
+      "tooltip": "Objek kueri di peta"
+    },
+    "expandtoolbar": {
+      "tooltip": "Perluas / Ciutkan"
+    },
+    "getFeatureInfoTitle": "Info fitur",
+    "identifyTitle": "Info fitur",
+    "identifyNoQueryableLayers": "Tidak ada lapisan kueri aktif",
+    "identifyRevGeocodeHeader": "Koordinat",
+    "identifyZoomToFeature": "Perbesar ke fitur",
+    "identifyStopHighlightingFeatures": "Jangan menonjolkan fitur",
+    "identifyHighlightFeatures": "Sorot fitur",
+    "identifyShowCoordinateEditor": "Tampilkan editor koordinat",
+    "identifyHideCoordinateEditor": "Sembunyikan editor koordinat",
+    "identifyCoordinateApplyChanges": "Menerapkan perubahan",
+    "identifyChangeCoordinateFormat": "Ubah format koordinat",
+    "identifyRevGeocodeModalTitle": "Alamat",
+    "identifyRevGeocodeSubmitText": "Info lebih lanjut",
+    "identifyRevGeocodeCloseText": "Menutup",
+    "identifyRevGeocodeError": "Tidak dapat melakukan geokode",
+    "identifyEdit": "Sunting",
+    "identifyLayerSelectNoResult": "Tidak ada lapisan yang ditemukan",
+    "getFeatureInfoError": {
+      "title": "Ups! ",
+      "text": "Terjadi kesalahan selama ini <b>Dapatkan Info Fitur</b> meminta"
+    },
+    "noFeatureInfo": "Tidak ada informasi yang tersedia untuk titik ini",
+    "noInfoForLayers": "Tidak ada fitur untuk lapisan berikut: ",
+    "history": {
+      "barLabel": "Sejarah peta",
+      "undoBtnTooltip": "Kembali",
+      "redoBtnTooltip": "Maju"
+    },
+    "infoFormatLbl": "Format lembar informasi",
+    "infoTriggerLabel": "Peristiwa pemicu untuk tampilan lembar informasi",
+    "click": "Pada klik pada fitur tersebut",
+    "hover": "Arahkan fitur",
+    "measureSupport": {
+      "continueLine": "Klik untuk melanjutkan menggambar garis",
+      "continuePolygon": "Klik untuk melanjutkan menggambar poligon",
+      "startDrawing": "Klik untuk mulai menggambar"
+    },
+    "measureComponent": {
+      "Measure": "Ukuran",
+      "MeasureLength": "Ukur jarak",
+      "MeasureArea": "Mengukur luas",
+      "MeasureBearing": "Ukur bantalan",
+      "MeasureTrueBearing": "Ukur bantalan sebenarnya",
+      "tooltip": "Ukur panjang, luas dan bantalan",
+      "title": "Ukuran",
+      "lengthButtonText": "Garis",
+      "areaButtonText": "Daerah",
+      "resetButtonText": "Mengatur ulang",
+      "lengthLabel": "Panjangnya",
+      "areaLabel": "Daerah",
+      "bearingLabel": "Bantalan",
+      "trueBearingLabel": "Bantalan sejati",
+      "formula": "Rumus perhitungan jarak",
+      "showLabel": "Tampilkan label pengukuran",
+      "saveMeasure": "Simpan pengukuran ke anotasi",
+      "addAsAnnotation": "Tambahkan sebagai anotasi",
+      "newMeasure": "anotasi baru",
+      "selectTool": "Pilih alat pengukuran",
+      "exportToGeoJSON": "Ekspor ke GeoJSON",
+      "resetTooltip": "Langkah-langkah yang jelas",
+      "addAsLayer": "Tambahkan sebagai lapisan"
+    },
+    "search": {
+      "layerMustBeVisible": "Lapisan target tidak aktif",
+      "decimal": "Desimal",
+      "aeronautical": "Penerbangan",
+      "changeSearchInputField": "Ubah alat pencarian",
+      "addressSearch": "Cari berdasarkan nama lokasi",
+      "coordinatesSearch": "Cari berdasarkan koordinat",
+      "searchservicesbutton": "Konfigurasikan layanan pencarian",
+      "configpaneltitle": "Membuat/mengedit layanan pencarian",
+      "serviceslistlabel": "Layanan yang tersedia",
+      "overriedservice": "Ganti layanan default",
+      "addbtn": "Menambahkan",
+      "nextbtn": "Lanjut",
+      "prevbtn": "Kembali",
+      "savebtn": "Simpan/Perbarui",
+      "cancelbtn": "Membatalkan",
+      "confirmremove": "Menghapus?",
+      "cancelconfirm": "Apa kamu yakin?",
+      "searchByBookmark": "Cari berdasarkan bookmark",
+      "bookmarksettings": "Pengaturan bookmark",
+      "zoomToBookmark": "Zoom ke bookmark yang dipilih",
+      "bookmarkFilter": "Filter bookmark",
+      "editBookmark": "Sunting bookmark",
+      "deleteBookmark": "Hapus bookmark",
+      "b_listpaneltitle": "Lihat bookmark",
+      "b_newpaneltitle": "Tambahkan bookmark baru",
+      "latitude": "Lat",
+      "longitude": "Lon",
+      "b_title": "Judul",
+      "b_layer_tooltip": "Alihkan pemuatan ulang visibilitas lapisan",
+      "b_bbox": "Kotak Pembatas",
+      "b_bbox_tooltip": "Gunakan tampilan saat ini sebagai kotak pembatas",
+      "b_bbox_south": "Selatan",
+      "b_bbox_south_placeholder": "Masuk Selatan",
+      "b_bbox_west": "Barat",
+      "b_bbox_west_placeholder": "Masuk Barat",
+      "b_bbox_east": "Timur",
+      "b_bbox_east_placeholder": "Masuk ke Timur",
+      "b_bbox_north": "Utara",
+      "b_bbox_north_placeholder": "Masuk Utara",
+      "bookmarkslistempty": "Tidak ada bookmark yang ditentukan",
+      "b_placeholder": "Pilih bookmark...",
+      "b_clearvalue": "Hapus bookmark",
+      "b_noresult": "Tidak ada bookmark yang ditemukan",
+      "s_name": "Nama",
+      "s_title": "Judul",
+      "s_description": "Keterangan",
+      "s_priority": "Prioritas",
+      "s_url": "URL layanan",
+      "s_layer": "Lapisan",
+      "s_attributes": "Atribut",
+      "s_sort": "Sortir dengan",
+      "s_max_features": "Fitur maks",
+      "s_max_zoom": "Tingkat zoom maks",
+      "s_wfs_props_label": "Properti layanan WFS",
+      "s_wfs_opt_props_label": "Properti opsional",
+      "s_result_props_label": "Properti tampilan hasil",
+      "s_priority_info": "Digunakan untuk mengurutkan hasil pencarian, turunkan nilai terlebih dahulu. ",
+      "serviceslistempty": "Tidak ada layanan kustom yang ditentukan",
+      "service_missing": "Layanan {serviceType} tidak dikonfigurasi",
+      "generic_error": "Terjadi kesalahan selama pencarian. ",
+      "showGFI": "Tunjukkan GFI",
+      "errors": {
+        "nonQueriableLayers": "Lapisan yang disediakan di URL tidak dapat dipertanyakan atau tidak terlihat di peta.",
+        "serverError": "Server mengembalikan kesalahan saat melakukan permintaan GetFeatureInfo. "
+      },
+      "s_launch_info_panel": {
+        "label": "Luncurkan panel info",
+        "no_info": "Tidak ada informasi",
+        "all_layers": "Semua Lapisan",
+        "single_layer": "Satu lapis",
+        "no_info_description": "Panel identifikasi tidak akan muncul di pencarian",
+        "all_layers_description": "Panel identifikasi akan muncul menampilkan informasi semua lapisan yang terlihat di peta",
+        "single_layer_description": "Panel identifikasi akan muncul menampilkan informasi hanya untuk lapisan ini",
+        "openFeatureInfoButtonCheckbox": "Gunakan tombol untuk membuka info fitur",
+        "forceSearchLayerVisibility": "Paksa visibilitas lapisan pencarian"
+      },
+      "advancedSearchPanel": {
+        "title": "Filter pencarian lanjutan",
+        "context": {
+          "title": "Konteks"
+        },
+        "showTooltip": "Tampilkan filter lanjutan",
+        "showTooltipActive": "Tampilkan filter lanjutan (aktif)",
+        "hideTooltip": "Sembunyikan filter lanjutan",
+        "hideTooltipActive": "Sembunyikan filter lanjutan (aktif)"
+      }
+    },
+    "draw": {
+      "fill": "Mengisi",
+      "text": "Teks",
+      "fontTitle": "Fon",
+      "color": "Warna",
+      "lineDash": "LineDash",
+      "stroke": "Stroke",
+      "opacity": "Kegelapan",
+      "width": "Lebar",
+      "textRotation": "Rotasi",
+      "font": {
+        "textColor": "Warna",
+        "family": "Keluarga",
+        "size": "Ukuran",
+        "style": "Gaya",
+        "weight": "Berat",
+        "textAlign": "Meluruskan"
+      },
+      "marker": {
+        "layout": "Tata letak",
+        "shape": "Membentuk",
+        "size": "Ukuran",
+        "type": "Jenis",
+        "icon": "Ikon"
+      }
+    },
+    "drawLocal": {
+      "draw": {
+        "toolbar": {
+          "actions": {
+            "title": "Batal menggambar",
+            "text": "Membatalkan"
+          },
+          "undo": {
+            "title": "Hapus titik terakhir yang ditarik",
+            "text": "Hapus poin terakhir"
+          },
+          "buttons": {
+            "polyline": "Menggambar poliline",
+            "polygon": "Gambar poligon",
+            "rectangle": "Gambar persegi panjang",
+            "circle": "Menggambar lingkaran",
+            "marker": "Gambarlah penanda"
+          }
+        },
+        "handlers": {
+          "circle": {
+            "tooltip": {
+              "start": "Klik dan seret untuk menggambar lingkaran."
+            }
+          },
+          "marker": {
+            "tooltip": {
+              "start": "Klik peta untuk menempatkan penanda."
+            }
+          },
+          "polygon": {
+            "tooltip": {
+              "start": "Klik untuk mulai menggambar bentuk.",
+              "cont": "Klik untuk melanjutkan menggambar bentuk.",
+              "end": "Klik titik pertama untuk menutup bentuk ini."
+            }
+          },
+          "polyline": {
+            "error": "Kesalahan: tepi bentuk tidak boleh bersilangan!",
+            "tooltip": {
+              "start": "Klik untuk mulai menggambar garis.",
+              "cont": "Klik untuk melanjutkan menggambar garis.",
+              "end": "Klik titik terakhir untuk menyelesaikan baris."
+            }
+          },
+          "rectangle": {
+            "tooltip": {
+              "start": "Klik dan seret untuk menggambar persegi panjang."
+            }
+          },
+          "simpleshape": {
+            "tooltip": {
+              "end": "Lepaskan mouse untuk menyelesaikan gambar."
+            }
+          }
+        }
+      },
+      "edit": {
+        "toolbar": {
+          "actions": {
+            "save": {
+              "title": "Simpan perubahan.",
+              "text": "Menyimpan"
+            },
+            "cancel": {
+              "title": "Batalkan pengeditan, buang semua perubahan.",
+              "text": "Membatalkan"
+            }
+          },
+          "buttons": {
+            "edit": "Mengedit lapisan.",
+            "editDisabled": "Tidak ada lapisan untuk diedit.",
+            "remove": "Hapus lapisan.",
+            "removeDisabled": "Tidak ada lapisan untuk dihapus."
+          }
+        },
+        "handlers": {
+          "edit": {
+            "tooltip": {
+              "text": "Seret gagang atau penanda untuk mengedit fitur.",
+              "subtext": "Klik Batal untuk membatalkan perubahan."
+            }
+          },
+          "remove": {
+            "tooltip": {
+              "text": "Klik pada fitur untuk menghapusnya"
+            }
+          }
+        }
+      }
+    },
+    "locate": {
+      "tooltip": "Tunjukkan posisi saya",
+      "tooltipDeactivate": "Berhenti menunjukkan posisiku",
+      "metersUnit": "meter",
+      "feetUnit": "kaki",
+      "popup": "Anda berada dalam {distance} {unit} dari titik ini",
+      "outsideMapBoundsMsg": "Anda tampaknya berada di luar batas peta"
+    },
+    "zoombuttons": {
+      "zoomInTooltip": "Tingkatkan zoom",
+      "zoomOutTooltip": "Kurangi zoom",
+      "zoomAllTooltip": "Perbesar hingga batas maksimal"
+    },
+    "fullscreen": {
+      "tooltipActivate": "Beralih ke layar penuh",
+      "tooltipDeactivate": "Keluar dari layar penuh",
+      "viewLargerMap": "Lihat peta yang lebih besar"
+    },
+    "helptexts": {
+      "scaleBox": "Ini adalah teks bantuan untuk ScaleBox",
+      "zoomToMaxExtentButton": "Ini adalah teks bantuan untuk Tombol ZoomToMaxExtent",
+      "zoomIn": "Ini adalah teks bantuan untuk ZoomIn",
+      "zoomOut": "Ini adalah teks bantuan untuk ZoomOut",
+      "searchBar": "Tulis alamat tempat untuk ditemukan. ",
+      "metadataexplorer": "Ini adalah teks bantuan untuk MetadataExplorer",
+      "settingsPanel": "Ini adalah teks bantuan untuk Panel Pengaturan",
+      "gohome": "Ini adalah teks bantuan untuk Beranda",
+      "measureComponent": "Ini adalah teks bantuan untuk MeasureComponent",
+      "layerSwitcher": "Ini adalah teks bantuan untuk LayerSwitcher",
+      "infoButton": "Ini adalah teks bantuan untuk InfoButton",
+      "locateBtn": "Ini adalah teks bantuan untuk LocateBtn",
+      "snapshot": "Ini adalah teks bantuan untuk Snapshot",
+      "print": "Ini adalah teks bantuan untuk Print",
+      "shapefile": "Ini adalah teks bantuan untuk Shapefile",
+      "rasterstyler": "Tetapkan nilai min, nilai maks, jumlah kelas dan ramp warna untuk menghasilkan klasifikasi baru untuk lapisan raster yang dipilih",
+      "expandToolbar": "Ini adalah teks bantuan untuk Perluas/Tutup",
+      "historyundo": "Gunakan tombol ini untuk membuka zoom dan lokasi peta sebelumnya",
+      "historyredo": "Gunakan tombol ini untuk pergi ke zoom dan lokasi peta berikutnya",
+      "vectorstyler": "Tambahkan aturan dan hasilkan layer vektor gaya baru",
+      "styler": "Tambahkan aturan dan hasilkan layer gaya baru"
+    },
+    "queryform": {
+      "title": "Pencarian lanjutan",
+      "query": "Mencari",
+      "apply": "Berlaku",
+      "reset": "Mengatur ulang",
+      "save": "Menyimpan",
+      "discard": "Membuka",
+      "query_request_exception": "Kesalahan permintaan",
+      "config": {
+        "load_config_exception": "Kesalahan memuat konfigurasi"
+      },
+      "comboField": {
+        "default_placeholder": "Pilih...",
+        "drop_down": "Buka menu Tarik-turun"
+      },
+      "form": {
+        "header": "Temukan di kumpulan data",
+        "dataset_header": "Himpunan data"
+      },
+      "emptyfilter": "Tidak ada filter yang disetel. ",
+      "attributefilter": {
+        "add_condition": " Tambahkan Kondisi",
+        "delete": " Menghapus",
+        "deleteGroup": "Hapus Grup",
+        "add_group": " Tambahkan Grup",
+        "group_label_a": "Cocok",
+        "group_label_b": "dari kondisi berikut:",
+        "combo_placeholder": "Atribut",
+        "text_placeholder": "Ketik teks untuk mencari",
+        "attribute_filter_header": "Filter atribut",
+        "tooltipTextField": "menggunakan <b>*</b> untuk sejumlah karakter apa pun</br>menggunakan . </br>menggunakan <b>!</b> untuk menghindari dua di atas (* dan .)</br>",
+        "tooltipTextFieldCSS": "menggunakan <b>%</b> untuk sejumlah karakter apa pun</br>menggunakan <b>_</b> untuk satu karakter</br>menggunakan <b>\\</b> untuk menghindari dua di atas (% dan _)</br>",
+        "groupField": {
+          "any": "setiap",
+          "all": "semua",
+          "none": "tidak ada"
+        },
+        "numberfield": {
+          "isRequired": "Nilai kolom wajib diisi",
+          "wrong_range": "Batas bawah harus lebih rendah dari batas atas"
+        },
+        "datefield": {
+          "wrong_date_range": "Tanggal mulai harus lebih awal dari tanggal akhir"
+        },
+        "autocomplete": {
+          "emptyList": "Tidak ada hasil",
+          "emptyFilter": "Filter tidak memberikan hasil",
+          "open": "Buka kotak kombo"
+        }
+      },
+      "spatialfilter": {
+        "filterType": "Jenis penyaring",
+        "geometric_operation": "operasi geometris",
+        "combo_placeholder": "Pilih...",
+        "spatial_filter_header": "Area minat",
+        "remove": "Menghapus",
+        "draw_start_label": "Gambarlah wilayah yang diminati di peta",
+        "dwithin_label": "meter",
+        "details": {
+          "detail_button_label": "Detail",
+          "details_header": "Detail pilihan",
+          "details_bbox_label": "Edit koordinat untuk mengubah area",
+          "details_circle_label": "Edit bidang numerik untuk mengubah jari-jari dan pusat lingkaran",
+          "reset_bbox": "Mengatur ulang",
+          "save_bbox": "Simpan modifikasi BBOX",
+          "save_radius": "Simpan modifikasi radius/tengah",
+          "radius": "Radius({satuan})"
+        },
+        "methods": {
+          "zone": "Daerah",
+          "viewport": "Area pandang",
+          "regions": "Daerah",
+          "box": "Persegi panjang",
+          "buffer": "Penyangga",
+          "circle": "Lingkaran",
+          "poly": "Poligon",
+          "cql": "CQL"
+        },
+        "operations": {
+          "intersects": "Berpotongan",
+          "bbox": "BoundingBox",
+          "contains": "terkandung",
+          "dwithin": "Jarak dari",
+          "within": "Mengandung"
+        }
+      },
+      "crossLayerFilter": {
+        "title": "Penyaring lapisan",
+        "targetLayer": "Lapisan sasaran",
+        "clear": "Hapus filter",
+        "operation": "Operasi",
+        "placeholder": "Pilih lapisan",
+        "errors": {
+          "noCrossLayerAvailable": "Pemfilteran lintas lapisan tidak tersedia untuk lapisan yang dipilih",
+          "layersExcluded": "Hanya layer yang berasal dari sumber yang sama yang dapat dipilih sebagai layer target untuk filter layer ini"
+        }
+      },
+      "changedFilter": "Filter Berubah",
+      "changedFilterAlert": "Ada perubahan yang belum disimpan. ",
+      "resetFilter": "Hapus filter",
+      "confirmReset": "Mengonfirmasi",
+      "loadingError": "Filter saat ini menyebabkan masalah rendering untuk lapisan di peta. ",
+      "changedFilterWithErrorAlert": "Filter menyebabkan kesalahan rendering lapisan, apakah Anda tetap ingin menyimpannya?"
+    },
+    "annotations": {
+      "errorLoadingSymbols": "Terjadi masalah saat memuat daftar simbol. ",
+      "edit": "Sunting",
+      "remove": "Menghapus",
+      "save": "Simpan anotasi",
+      "saveGeometry": "Simpan geometri",
+      "cancel": "Membatalkan",
+      "back": "Kembali ke anotasi",
+      "applyStyle": "Terapkan Gaya",
+      "addGeometry": "Tambahkan geometri baru",
+      "styleGeometry": "Ubah gaya",
+      "deleteGeometry": "Hapus semua geometri anotasi",
+      "geometries": "Geometri",
+      "removeannotation": "Apakah Anda ingin menghapus anotasi dengan judul: {title}?",
+      "removegeometry": "Apakah Anda ingin menghapus fitur anotasi?",
+      "confirm": "Mengonfirmasi",
+      "mandatory": "Bidang wajib",
+      "emptygeometry": "Tambahkan setidaknya satu geometri yang valid",
+      "empty": "Belum ada anotasi, klik [ ] untuk menambahkan anotasi",
+      "add": "Baru",
+      "filter": "Filter anotasi...",
+      "undo": "Anda yakin ingin mengabaikan sesi pengeditan anotasi?",
+      "titleUndoGeom": "Geometri telah berubah",
+      "undoGeom": "Apakah Anda yakin untuk keluar tanpa menyimpan? ",
+      "confirmGeom": "Mengonfirmasi",
+      "cancelModalGeom": "Membatalkan",
+      "deleteFeature": "Hapus fitur ini",
+      "undoDeleteFeature": "Apakah Anda yakin akan menghapus fitur ini?",
+      "enableEdit": "Aktifkan edit",
+      "editMeasurement": "Mengedit pengukuran",
+      "title": "Anotasi",
+      "zoomTo": "Zoom ke anotasi",
+      "zoomToGeometry": "Perbesar ke geometri",
+      "removeGeometry": "Menghapus",
+      "hide": "Sembunyikan anotasi",
+      "show": "Tampilkan anotasi",
+      "tabCoordinates": "Koordinat",
+      "warning": "Peringatan!",
+      "measureWarningText": "Menavigasi untuk mengedit panel pengukuran akan menghapus semua gaya yang diterapkan",
+      "notShowAgain": "Jangan tampilkan pesan ini lagi",
+      "tabStyle": "Gaya",
+      "insertText": "Harap masukkan anotasi teks",
+      "downloadtooltip": "Unduh anotasi",
+      "downloadcurrenttooltip": "Unduh anotasi saat ini",
+      "downloadError": "Kesalahan ekspor",
+      "loadtooltip": "Anotasi impor",
+      "loadtitle": "Anotasi impor",
+      "selectfiletext": "Letakkan file Anda di sini atau klik untuk memilih file anotasi yang akan diimpor. ",
+      "loadoverride": "Ganti anotasi",
+      "loaderror": "Pilih satu atau beberapa file anotasi. ",
+      "defaulttitle": "Edit judul default",
+      "tooltip": "Anotasi",
+      "field": {
+        "title": "Judul",
+        "description": "Keterangan"
+      },
+      "titles": {
+        "marker": " Penanda",
+        "line": " Garis",
+        "polygon": " Poligon",
+        "text": " Teks",
+        "circle": " Lingkaran"
+      },
+      "editor": {
+        "decimal": "Desimal",
+        "aeronautical": "Penerbangan",
+        "title": {
+          "Polygon": "Editor poligon",
+          "LineString": "editor LineString",
+          "Bearing": "Editor bantalan",
+          "Circle": "Editor lingkaran",
+          "Point": "Editor penanda",
+          "MultiPoint": "Editor multipoin",
+          "Text": "Editor teks"
+        },
+        "center": "Tengah",
+        "add": "Tambahkan koordinat baru",
+        "addByClick": "Tambahkan koordinat baru dengan mengklik tombol 'plus' atau di peta",
+        "valid": "Geometri valid",
+        "radius": "Radius",
+        "text": "Teks",
+        "lat": "Garis Lintang",
+        "lon": "Garis bujur",
+        "notValidMarker": "Masukkan koordinat yang valid ( |- 90° lat, |-180° lon)",
+        "notValidPolyline": "Semua koordinat harus valid ( |- 90° lat, |-180° lon)",
+        "notValidText": "Masukkan nilai teks dan koordinat yang valid ( |- 90° lat, |-180° lon)",
+        "notValidCircle": "Masukkan nilai radius dan koordinat yang valid ( |- 90° lat, |-180° lon)",
+        "newFeature": "Baru"
+      },
+      "geometryError": "Konfigurasi geometri tidak valid",
+      "annotationSaveGeometryError": "Penyimpanan dinonaktifkan karena geometri tidak valid, harap perbaiki untuk menyimpan anotasi",
+      "resolveAllErrors": "Perbaiki error validasi apa pun sebelum mengedit geometri lainnya"
+    },
+    "user": {
+      "login": "Masuk",
+      "logout": "Keluar",
+      "info": " Info akun",
+      "details": " Detail Pengguna",
+      "noAttributesMessage": "Tidak ada informasi yang terkait dengan akun Anda",
+      "changePwd": "Ganti kata sandi",
+      "newPwd": "kata sandi baru",
+      "retypePwd": "Ketik Ulang Kata Sandi",
+      "passwordMinlenght": "Kata sandi Anda minimal harus {data} karakter",
+      "passwordCheckFail": "Sandi tidak cocok!",
+      "passwordInvalid": "Kata sandi salah",
+      "username": "Nama belakang",
+      "password": "Kata sandi",
+      "passwordMessage": "Kata sandi harus berisi setidaknya 6 karakter",
+      "passwordInvalidChar": "Kata sandi tidak boleh mengandung karakter berikut: {data}",
+      "passwordChanged": "Kata sandi diubah",
+      "passwordError": "Kesalahan mengubah kata sandi",
+      "signIn": "Masuk",
+      "loginFail": "Gagal masuk",
+      "loginFailedStatusMessages": {
+        "usernamePwdInsert": "Silakan masukkan nama pengguna dan kata sandi",
+        "usernamePwdIncorrect": "nama pengguna atau kata kunci Salah"
+      },
+      "detailsName": "Nama",
+      "detailsRole": "Wewenang",
+      "detailsGroups": "Grup",
+      "detailsEmail": "Surel",
+      "detailsCompany": "Perusahaan",
+      "detailsNotes": "Catatan",
+      "userMenu": "Menu pengguna",
+      "generalInformation": "Umum",
+      "attributes": "Atribut"
+    },
+    "users": {
+      "title": "Mengelola akun",
+      "users": "Pengguna",
+      "manageUsers": "Kelola Pengguna",
+      "searchUsers": "mencari pengguna...",
+      "newUser": "Pengguna baru",
+      "editUser": "Edit pengguna",
+      "deleteUser": "Hapus pengguna",
+      "statusTitle": "status",
+      "enabled": "Diaktifkan",
+      "groupTitle": "Grup:",
+      "roleTitle": "Wewenang",
+      "saveUser": "Menyimpan",
+      "savingUser": "Penghematan...",
+      "userSaved": "Diselamatkan!",
+      "createUser": "Membuat",
+      "creatingUser": "Membuat...",
+      "userCreated": "Dibuat!",
+      "deleting": "Menghapus...",
+      "delete": "Menghapus",
+      "confirmDeleteUser": "Apakah Anda yakin ingin menghapus pengguna ini?",
+      "errorDelete": "Terjadi kesalahan saat menghapus pengguna ini:",
+      "errorSaving": "Terjadi kesalahan saat menyimpan pengguna:",
+      "selectedGroups": "KELOMPOK TERPILIH",
+      "requiredFiedsMessage": "Bidang yang ditandai dengan tanda bintang (*) wajib diisi"
+    },
+    "usergroups": {
+      "searchGroups": "Cari Grup...",
+      "groups": "Grup",
+      "nameLimit": "Nama dibatasi hingga 255 karakter.",
+      "descLimit": "Deskripsi dibatasi hingga 255 karakter.",
+      "editGroup": "Sunting Grup",
+      "deleteGroup": "Hapus Grup",
+      "removeUser": "Hapus Pengguna",
+      "newGroup": "Grup baru",
+      "manageGroups": "Kelola Grup",
+      "description": "Keterangan:",
+      "noDescriptionAvailable": "(Tidak ada deskripsi)",
+      "groupName": "Nama grup",
+      "groupDescription": "Keterangan",
+      "saveGroup": "Menyimpan",
+      "createGroup": "Membuat",
+      "creatingGroup": "Membuat...",
+      "groupMembers": "Anggota:",
+      "addMember": "Tambahkan anggota:",
+      "selectMemberPlaceholder": "Pilih Anggota...",
+      "noUsers": "Tidak ada pengguna untuk grup ini",
+      "errorSaving": "Terjadi kesalahan saat menyimpan grup ini",
+      "errorDelete": "Terjadi kesalahan saat menghapus grup ini",
+      "confirmDeleteGroup": "Apakah Anda yakin ingin menghapus grup ini?",
+      "generalInformation": "Umum",
+      "members": "Anggota"
+    },
+    "share": {
+      "title": "Membagikan",
+      "tooltip": "Membagikan",
+      "titlePanel": "Bagikan peta",
+      "socialIntro": "Di jejaring sosial favorit Anda",
+      "directLinkTitle": "Melalui tautan langsung",
+      "embeddedLinkTitle": "Melalui kode tertanam",
+      "social": "Sosial",
+      "direct": "Tautan",
+      "code": "Menanamkan",
+      "forceDrawer": "Tampilkan TOC",
+      "apiLinkTitle": "Menggunakan API",
+      "QRCodeLinkTitle": "Kode QR",
+      "msgCopiedUrl": "Disalin",
+      "msgToCopyUrl": "Klik untuk menyalin",
+      "sharedTitle": "Lihat peta baru saya: ",
+      "addCenterAndZoomParam": "Tambahkan pusat dan perbesar ke tautan berbagi",
+      "addMarkerAndZoomParam": "Tambahkan tanda letak dan zoom ke tautan berbagi",
+      "zoom": "Perbesar",
+      "marker": "Tambahkan penanda pada peta yang dimuat",
+      "coordinate": "Koordinat",
+      "coordTooltip": "Klik pada peta untuk mengambil koordinat",
+      "zoomToolTip": "Min: 1 dan Maks: 35",
+      "headingToolTip": "Min: 0° dan Maks: 360°",
+      "rollToolTip": "Min: -90° dan Maks: 90°",
+      "pitchToolTip": "Min: -90° dan Maks: 90°",
+      "wrongCenterAndZoomParamTitle": "Parameter pusat dan zoom tidak valid",
+      "wrongCenterAndZoomParamMessage": "Center dan Zoom param harus center=lon,lat",
+      "wrongMarkerAndZoomParamTitle": "Penanda dan parameter zoom tidak valid",
+      "wrongMarkerAndZoomParamMessage": "Parameter Marker dan Zoom harus marker=lon,lat",
+      "advancedOptions": "Opsi lanjutan",
+      "addBboxParam": "Tambahkan param kotak pembatas ke tautan berbagi",
+      "wrongBboxParamTitle": "Parameter kotak pembatas tidak valid",
+      "wrongBboxParamMessage": "Parameter kotak pembatas harus dalam EPSG:4326 dan ditulis sebagai bbox=minx,miny,maxx,maxy",
+      "showHomeButton": "Tautan ke beranda MapStore",
+      "showSectionId": "Sertakan posisi gulir",
+      "showConnections": "Tampilkan koneksi",
+      "heading": "Menuju",
+      "roll": "Gulungan",
+      "pitch": "Melempar",
+      "sizeOptions": {
+        "width": "lebar",
+        "height": "tinggi"
+      }
+    },
+    "snapshot": {
+      "title": "Pratinjau Cuplikan",
+      "save": "Menyimpan",
+      "tooltip": "Simpan cuplikan peta.",
+      "googleBingError": "Lapisan Google dan Bing tidak tersedia untuk snapshot, karena batasan hak cipta.",
+      "downloadingSnapshots": "pembuatan snapshot yang tertunda",
+      "date": "Tanggal",
+      "layers": "Lapisan",
+      "size": "Ukuran",
+      "notsupported": "Cuplikan tidak didukung",
+      "taintedMessage": "Fungsi penyimpanan snapshot terbatas karena beberapa aturan keamanan browser. "
+    },
+    "shapefile": {
+      "title": "Tambahkan file vektor lokal",
+      "tooltip": "Tambahkan file vektor lokal ke peta.",
+      "placeholder": "Letakkan file Anda di sini atau klik untuk memilih file vektor yang akan diimpor. ",
+      "defaultStyle": "Gaya bawaan",
+      "zoom": "Perbesar file vektor",
+      "error": {
+        "select": "Pilih satu atau lebih file. ",
+        "shapeFileParsingError": "Tidak dapat memuat file vektor. ",
+        "genericLoadError": "Tidak dapat memuat file vektor di peta",
+        "missingPrj": "Info proyeksi hilang (.prj), sistem koordinat seharusnya EPSG:4326"
+      },
+      "merge": "Gabungkan dengan lapisan anotasi yang ada",
+      "replace": "Ganti lapisan anotasi yang ada",
+      "add": "Menambahkan",
+      "cancel": "Membatalkan",
+      "success": " diimpor dengan benar",
+      "next": "Lanjut",
+      "skip": "Melewati",
+      "finish": "Menyelesaikan",
+      "layerOf": "Lapisan {count} dari {total}:",
+      "styleCustomizationDisabled": "Lapisan ini sudah memiliki gaya yang ditentukan dan tidak mungkin untuk menyesuaikannya."
+    },
+    "mapImport": {
+      "title": "Impor",
+      "tooltip": "Impor file peta atau data vektor",
+      "dropZone": {
+        "heading": "<p><h4>Jatuhkan konteks peta atau file vektor Anda di sini</h4><small>atau</small></p>",
+        "selectFiles": "Pilih file...",
+        "infoSupported": "<p><small>File konteks peta yang didukung: format warisan MapStore, WMC<br />File layer vektor yang didukung: shapefile (harus terdapat dalam arsip zip), KML/KMZ, GeoJSON, Anotasi atau GPX</small></p>",
+        "note": "<p><small><i><strong>catatan</strong>: peta saat ini akan diganti jika ada file konteks peta</i></small></p>"
+      },
+      "errors": {
+        "fileNotSupported": "Berkas tidak didukung",
+        "unknownError": "ada kesalahan yang tidak diketahui selama impor",
+        "projectionNotSupported": "Proyeksi file yang Anda coba impor tidak didukung",
+        "fileBeyondBoundaries": "File {filename} tidak dapat diimpor karena tidak sesuai dengan batas peta"
+      }
+    },
+    "mapExport": {
+      "title": "Ekspor",
+      "tooltip": "Ekspor peta saat ini",
+      "exportPanel": {
+        "title": "<p><h4>Pilih format Anda</h4></p>",
+        "exportButtonLabel": "Ekspor"
+      },
+      "formats": {
+        "mapstore2": {
+          "label": "MapStore",
+          "description": "<p><small>Format konfigurasi peta MapStore</small></p>"
+        },
+        "wmc": {
+          "label": "WMC",
+          "description": "<p><small>Format Konteks Peta Web OGC</small></p>",
+          "note": "<p><small><i><strong>catatan</strong>: mendukung format WMC <strong>hanya lapisan WMS</strong></i></small></p>"
+        }
+      },
+      "errorTitle": "Ekspor Peta gagal",
+      "wmcNoLayersError": "Setidaknya satu lapisan WMS diperlukan untuk mengekspor ke WMC, tidak ditemukan"
+    },
+    "catalog": {
+      "start": "Mulai tanggal ",
+      "end": "Tanggal akhir ",
+      "notAvailable": "Tidak tersedia",
+      "title": "Katalog",
+      "tooltip": "Tambahkan lapisan ke peta",
+      "autoload": "Cari di pemilihan layanan",
+      "clearValueText": "Hapus pilihan",
+      "noResultsText": "Tidak ada hasil",
+      "addToMap": "Tambahkan Ke Peta",
+      "getWMSLink": "Dapatkan Tautan WMS",
+      "error": "Terjadi kesalahan saat memuat data",
+      "pageInfo": "Hasil {start}-{end} dari {total}",
+      "resultInfo": "{total, plural, =0 {Tidak ada barang} =1 {{total} Barang dari {total}} lainnya {{mulai}-{akhir} dari {total}}}",
+      "pageInfoInfinite": "{total, plural, =undefined {} =0 {Tidak ada hasil} =1 {{total} dari {total} cocok} lainnya {Dimuat {dimuat} dari {total} cocok}}",
+      "noRecordsMatched": "Tidak ada rekor yang cocok",
+      "wmsGetCapLink": "WMS",
+      "wfsGetCapLink": "WFS",
+      "share": "Membagikan",
+      "copyToClipboard": "Menyalin ke clipboard",
+      "copied": "Disalin!",
+      "textSearchPlaceholder": "teks untuk mencari...",
+      "search": "Mencari",
+      "delete": "Menghapus",
+      "reset": "Jernih",
+      "options": "Pilihan",
+      "srs_not_allowed": "Sistem koordinat peta tidak didukung oleh layanan ini",
+      "add": "Menambahkan",
+      "service": "Melayani",
+      "servicePlaceholder": "ketik layanan",
+      "url": "URL",
+      "urlPlaceholder": "ketik URL",
+      "type": "Jenis",
+      "serviceTitle": "Judul",
+      "serviceTitlePlaceholder": "ketik judul",
+      "tms": {
+        "provider": "Pemberi",
+        "urlTemplate": "Templat URL",
+        "urlTemplateHint": "<p>URL template untuk layanan TMS kustom Anda, dengan kemungkinan untuk memasukkan variabel (dinyatakan menggunakan kurung kurawal, mis. <code>{var_name}</code>) yang akan digantikan oleh aplikasi.<br/>.  <code>{x}</code>, <code>{y}</code> dan <code>{z}</code> variabel dicadangkan untuk nilai koordinat petak petak.  <code>{s}</code> untuk subdomain. </p>",
+        "customTMSConfiguration": "Konfigurasi TMS Kustom",
+        "customTMSConfigurationHint": "<p>Opsi dapat berisi:<br/><ul><li><code>\"subdomain\": ['a', 'b']</code>: digunakan untuk beberapa domain, menggantikan <code>{s}</code> dalam templat URL</li><li><code>\"maxNativeZoom\": 20</code>: zoom maksimal dari server</li></ul></p>",
+        "forceDefaultTileGrid": "Paksa petak petak default",
+        "forceDefaultTileGridDescription": "Gunakan petak petak proyeksi global alih-alih asal dan resolusi yang disediakan oleh server. "
+      },
+      "tileprovider": {
+        "tooltip": "x,y,z adalah posisi petak, s adalah sub-domain (default)"
+      },
+      "missingReference": "Metadata referensi OGC tidak ada",
+      "showDescription": "Tampilkan deskripsi lengkap",
+      "hideDescription": "Sembunyikan deskripsi lengkap",
+      "templateFormatDescriptionExample": "Deskripsi lapisan adalah",
+      "showTemplate": "Tampilkan template metadata",
+      "showPreview": "Tampilkan pratinjau",
+      "advancedSettings": "Pengaturan lanjutan",
+      "templateMetadataAvailable": "Metadata tersedia dari format Dublin Core: abstrak, kotak pembatas, kontributor, pembuat, deskripsi, format, pengidentifikasi, referensi, hak, sumber, subjek, temporal, judul, jenis, uri",
+      "invalidUrlHttpProtocol": "Katalog ini tidak dapat ditambahkan ke katalog yang tersedia karena menggunakan protokol http. ",
+      "notification": {
+        "errorTitle": "Kesalahan",
+        "errorSearchingRecords": "Beberapa catatan belum ditemukan: {records} Harap periksa URL kueri dan parameternya.",
+        "warningAddCatalogService": "Masukkan URL dan judul yang valid",
+        "addCatalogService": "Layanan ditambahkan dengan benar",
+        "duplicatedServiceTitle": "Layanan dengan judul tersebut sudah ada. ",
+        "serviceDeletedCorrectly": "Layanan telah dihapus dengan benar",
+        "errorServiceUrl": "Layanan tidak tersedia. "
+      },
+      "backgroundAlreadyAdded": "Ditambahkan ke pemilih latar belakang",
+      "enableLocalizedLayerStyles": {
+        "label": "Aktifkan gaya lokal",
+        "tooltip": "Catatan: Parameter ini memerlukan konfigurasi khusus pada GeoServer"
+      },
+      "format": {
+        "noOption": "Tidak ada pilihan",
+        "loading": "Memuat..."
+      },
+      "filter": {
+        "static": {
+          "label": "Filter Statis",
+          "info": "Filter selalu diterapkan, bahkan dalam pencarian kosong"
+        },
+        "dynamic": {
+          "label": "Filter Dinamis",
+          "info": "Filter digunakan saat teks pencarian ada dan diterapkan di 'DAN' dengan filter statis",
+          "helpText": "Gunakan template dengan placeholder ${searchText} untuk menangkap string pencarian"
+        },
+        "error": "Sintaks xml tidak valid"
+      },
+      "autoSetVisibilityLimits": {
+        "label": "Tetapkan Batas Visibilitas",
+        "tooltip": "Secara otomatis menerapkan batas visibilitas yang disarankan oleh server"
+      },
+      "domainAliases": {
+        "title": "Alias ??domain",
+        "helpTooltip": "Opsi ini digunakan untuk membagi konten di beberapa subdomain",
+        "addAliasTooltip": "Tambahkan alias",
+        "removeAliasTooltip": "Hapus alias"
+      }
+    },
+    "uploader": {
+      "filename": "Nama file",
+      "type": "Jenis",
+      "lastModified": "Terakhir diubah",
+      "filesize": "Ukuran",
+      "beforeUpload": "Melakukan operasi pra-pengunggahan... ",
+      "uploadingFiles": "Mengunggah File...",
+      "dropfile": "jatuhkan file di sini untuk mengunggah",
+      "dropfileImport": "jatuhkan file di sini untuk menambahkannya ke proses ini"
+    },
+    "importer": {
+      "title": "Impor Data",
+      "imports": "Impor Sesi",
+      "importN": "Sesi {id}",
+      "creatingImportProcess": " Membuat Sesi Impor... ",
+      "dropfile": "jatuhkan file di sini untuk membuat sesi pengimporan baru",
+      "dropfileImport": "jatuhkan file di sini untuk menambahkannya ke sesi ini",
+      "process": "Sidang",
+      "number": "",
+      "workspace": {
+        "create": "Membuat",
+        "createWS": "buat ruang kerja baru: ",
+        "target": "ruang kerja sasaran: ",
+        "failure": "Kesalahan saat membuat ruang kerja: {statusWS}",
+        "success": "Ruang kerja {statusWS} berhasil dibuat",
+        "select": "Pilih Ruang Kerja Target",
+        "new": "Nama ruang kerja baru..."
+      },
+      "import": {
+        "actions": "Tindakan",
+        "tasks": "Paket",
+        "runImport": "Lari",
+        "deleteImport": "Hapus Sesi",
+        "deleteTask": "Menghapus",
+        "status": "Status",
+        "archive": "Arsip",
+        "deleting": "Menghapus...",
+        "analyzing": "Menganalisis paket...",
+        "applyingPreset": "Menerapkan Preset..."
+      },
+      "task": {
+        "panelTitle": "Impor Paket {id}",
+        "general": "Informasi Umum",
+        "status": "Status",
+        "updateMode": "Modus Pembaruan",
+        "originalData": "Berkas Asli",
+        "file": "Nama file",
+        "format": "Format",
+        "targetStore": "Toko Tujuan",
+        "storeType": "Jenis Toko",
+        "storeName": "Nama Toko",
+        "layer": "Lapisan",
+        "transforms": "Rantai Transformasi",
+        "update": "Memperbarui",
+        "run": "Impor Paket Ini",
+        "edit": "Edit Gaya Default",
+        "delete": "Hapus Paket Ini"
+      },
+      "transform": {
+        "panelTitle": "Transformasi {id}",
+        "type": "Tipe Transformasi",
+        "actions": "Tindakan",
+        "options": "Opsi Transformasi",
+        "overviewlevels": "Tingkat Ikhtisar",
+        "delete": "Hapus transformasi ini"
+      }
+    },
+    "rasterstyler": {
+      "tooltip": "Buat dan edit gaya lapisan raster",
+      "paneltitle": "Penata Raster",
+      "layerlabel": "Lapisan",
+      "typelabel": "Tipe Gaya",
+      "opacitylabel": "Kegelapan",
+      "redtitle": "Merah",
+      "greentitle": "Hijau",
+      "bluetitle": "Biru",
+      "graytitle": "Abu-abu",
+      "pseudobandtitle": "Pemilihan Band",
+      "eqinttitle": "Klasifikasi Interval Setara",
+      "pseudotitle": "Pengaturan PseudoColor",
+      "applybtn": "Terapkan Gaya"
+    },
+    "bandselector": {
+      "band": "Pita",
+      "enhancement": "Peningkatan",
+      "algorithmTitle": "Algoritma Opsional",
+      "value": "Nilai",
+      "min": "Min",
+      "max": "Maks",
+      "enha": {
+        "none": "Tidak ada",
+        "Normalize": "Normalisasikan",
+        "Histogram": "Histogram",
+        "GammaValue": "Koreksi Gamma"
+      },
+      "algorithm": {
+        "none": "Tidak ada",
+        "StretchToMinimumMaximum": "Menggeliat",
+        "ClipToMinimumMaximum": "Klip",
+        "ClipToZero": "Klip Ke Nol"
+      }
+    },
+    "equalinterval": {
+      "min": "Min",
+      "max": "Maks",
+      "classes": "Kelas",
+      "ramp": "Ramp Warna",
+      "classify": "Menggolongkan",
+      "maxerror": "Nilai maks harus lebih besar dari nilai min",
+      "minerror": "Nilai min harus kurang dari nilai maks"
+    },
+    "colormapgrid": {
+      "color": "Warna",
+      "quantity": "Kuantitas",
+      "label": "Label",
+      "minmaxerror": "Nilai harus berada di antara nilai sel sebelumnya dan berikutnya"
+    },
+    "pseudocolorsettings": {
+      "type": "Jenis",
+      "extended": "Diperpanjang",
+      "colormap": "Peta Warna",
+      "add": "Tambahkan Entri",
+      "remove": "Hapus Entri"
+    },
+    "rasterstyletype": {
+      "rgb": "Merah Hijau Biru",
+      "gray": "Skala abu-abu",
+      "pseudo": "PseudoColor",
+      "multi": "Multi Band",
+      "single": "Pita Tunggal"
+    },
+    "featuregrid": {
+      "columns": "Kolom",
+      "header": "Daftar hasil pencarian",
+      "tools": "Panel Alat",
+      "export": "Ekspor",
+      "selectall": "Pilih Semua",
+      "deselectall": "Hapus Pilihan",
+      "backtosearch": "Kembali ke pencarian",
+      "resultInfo": "{total, plural, =0 {Tidak ada barang} =1 {{total} Barang dari {total}} lainnya {{mulai}-{akhir} dari {total}}}",
+      "resultInfoVirtual": "{total, plural, =0 {Tidak ada barang} =1 {{total} Barang} lainnya {{total} Barang}}",
+      "selectedInfo": "( {selected} Dipilih )",
+      "pageInfo": "{totalPages, plural, =0 {Tidak ada halaman} =1 {Halaman {totalPages} dari {totalPages}} lainnya {Halaman {halaman} dari {totalPages}}}",
+      "pagination": {
+        "page": "Halaman",
+        "of": "dari",
+        "to": "ke",
+        "more": "lagi"
+      },
+      "noFeaturesAvailable": "Tidak Ada Fitur yang Tersedia",
+      "errorSaving": "Terjadi kesalahan dengan operasi penyimpanan",
+      "errorProjFetch": "Kesalahan saat mengambil definisi string proj4 dari spatialreference.org. ",
+      "notSupportedGeometryTitle": "Jenis geometri tidak didukung ",
+      "notSupportedGeometry": "Jenis geometri lapisan saat ini tidak didukung oleh pengeditan tetapi Anda masih dapat mengedit atribut",
+      "yesButton": "Ya",
+      "noButton": "Tidak",
+      "deleteButton": "Menghapus",
+      "clear": "Apakah Anda yakin untuk membatalkan semua perubahan yang telah Anda lakukan?",
+      "featureClose": "Apakah Anda yakin untuk menutup kisi fitur?",
+      "delete": "Apakah Anda mengonfirmasi untuk menghapus fitur {count}?",
+      "missingGeometry": "Geometri hilang",
+      "zoomObject": "Perbesar ke fitur",
+      "filter": {
+        "placeholders": {
+          "default": "Mencari...",
+          "string": "Ketik teks untuk memfilter...",
+          "date": "Ketik tanggal untuk memfilter...",
+          "number": "Ketik angka atau ekspresi..."
+        },
+        "tooltips": {
+          "editMode": "Pencarian cepat tidak tersedia dalam mode edit",
+          "default": "Mencari...",
+          "string": "Ketik teks untuk memfilter...",
+          "number": "Ketik angka atau ekspresi. ",
+          "date": "Ketik tanggal atau ekspresi. ",
+          "geometry": {
+            "disabled": "Filter mengklik peta / Alt mouse drag untuk menggambar filter kotak. ",
+            "enabled": "Klik pada peta untuk memilih fitur / Alt mouse drag untuk menggambar filter kotak. ",
+            "applied": "Bersihkan pilihan"
+          }
+        }
+      },
+      "toolbar": {
+        "synchPopoverTitle": "Sinkronkan peta dengan filter ",
+        "synchPopoverText": "Gunakan alat ini untuk menyinkronkan peta dengan filter yang dipilih",
+        "notShowAgain": "  Jangan tampilkan pesan ini lagi",
+        "editMode": "Modus edit",
+        "advancedFilter": "Pencarian Lanjutan",
+        "quitEditMode": "Keluar dari mode edit",
+        "addNewFeatures": "Tambahkan fitur Baru",
+        "editFeature": "Fitur edit",
+        "drawGeom": "Fitur menggambar",
+        "stopDrawGeom": "Batalkan krasi geometri",
+        "addGeom": "Tambahkan bentuk ke geometri yang ada",
+        "deleteSelectedFeatures": "Hapus fitur yang dipilih",
+        "saveChanges": "Simpan perubahan",
+        "saving": "Penghematan...",
+        "cancelChanges": "Batalkan perubahan",
+        "deleteGeometry": "Hapus geometri",
+        "downloadGridData": "Unduh data jaringan",
+        "hideShowColumns": "Sembunyikan/tampilkan kolom",
+        "zoomAll": "Perbesar hingga batas halaman",
+        "syncOnMap": "Sinkronkan peta dengan filter",
+        "enableTimeSync": "Sinkronkan dengan waktu atau interval waktu yang dipilih",
+        "disableTimeSync": "Jangan sinkronkan dengan waktu atau interval yang dipilih",
+        "createNewChart": "Buat bagan untuk lapisan yang dipilih"
+      }
+    },
+    "layerdownload": {
+      "title": "Ekspor Data",
+      "format": "Format File",
+      "srs": "Sistem Referensi Spasial",
+      "export": "Ekspor",
+      "downloadonlycurrentpage": "Unduh hanya halaman saat ini",
+      "cropDataSet": "Pangkas kumpulan data ke area pandang saat ini",
+      "downloadFilteredDataSet": "Unduh set data yang difilter",
+      "advancedOptions": "Opsi lanjutan",
+      "compression": "Kompresi",
+      "tileWidth": "Lebar ubin",
+      "tileHeight": "Tinggi ubin",
+      "quality": "Kualitas",
+      "error": {
+        "title": "Kesalahan selama ekspor",
+        "invalidOutputFormat": "Format ekspor yang dipilih tidak tersedia",
+        "downloadEstimatorTitle": "Kesalahan Unduh Estimator",
+        "downloadEstimatorFailed": "Permintaan DownloadEstimator gagal yang berarti file yang diekspor melebihi batas server yang dikonfigurasi. "
+      },
+      "exportResultsMessages": {
+        "newExport": "File akan tersedia di sini saat ekspor selesai",
+        "exportFailure": "Ekspor untuk lapisan \"{layerTitle}\" gagal! ",
+        "exportSuccess": "Ekspor untuk lapisan \"{layerTitle}\" berhasil diselesaikan.",
+        "invalidHref": "Tanggapan dari server tidak berisi alamat url yang valid untuk file yang diekspor!"
+      },
+      "wpsExecuteError": {
+        "processFailed": "Proses pengunduhan gagal! ",
+        "badResponse": "Proses pengunduhan gagal! ",
+        "executeProcessXhrFailed": "Permintaan ExecuteProcess gagal! ",
+        "getExecutionStatusXhrFailed": "Permintaan GetExecutionStatus gagal! ",
+        "unexpectedError": "Terjadi kesalahan tak terduga"
+      },
+      "noSupportedServiceFound": "Server tidak mendukung pengunduhan WFS atau WPS untuk lapisan ini!"
+    },
+    "exportDataResults": {
+      "title": "Ekspor hasil data",
+      "emptyStateMessage": "Daftar ekspor kosong"
+    },
+    "widgets": {
+      "types": {
+        "map": {
+          "title": "Peta",
+          "caption": "menambahkan peta"
+        },
+        "legend": {
+          "title": "Legenda",
+          "caption": "menambahkan legenda"
+        },
+        "chart": {
+          "title": "Bagan",
+          "caption": "menambahkan grafik"
+        },
+        "text": {
+          "title": "Teks",
+          "caption": "menambahkan area teks"
+        },
+        "table": {
+          "title": "Meja",
+          "caption": "tambahkan tabel"
+        },
+        "counter": {
+          "title": "Menangkal",
+          "caption": "tambahkan penghitung"
+        }
+      },
+      "selectWidgetType": "Pilih jenis widget",
+      "selectChartType": {
+        "title": "Pilih jenis Bagan"
+      },
+      "selectMap": {
+        "TOC": {
+          "noLayerTitle": "Tanpa Lapisan",
+          "noLayerDescription": "Tidak ada lapisan di peta. "
+        },
+        "emptyMap": {
+          "title": "Peta Kosong",
+          "description": "Mulai dari peta kosong"
+        }
+      },
+      "title": "Judul",
+      "description": "Keterangan",
+      "errors": {
+        "notext": "Tidak ada teks yang tersedia",
+        "nodata": "Tidak ada data yang tersedia untuk lapisan/filter yang dipilih",
+        "noLegend": "Tidak ada item legenda untuk ditampilkan",
+        "noLegendDescription": "Peta yang terhubung tidak memiliki lapisan untuk ditampilkan dalam legenda",
+        "nodatainviewport": "Tidak ada data di viewport saat ini",
+        "timeoutExpired": "Layanan mengambil terlalu banyak waktu untuk merespon. ",
+        "genericError": "Terjadi kesalahan selama pengambilan data",
+        "genericErrorWithMessage": "Terjadi kesalahan selama pengambilan data: \"{message}\"",
+        "layerNotAvailable": "Lapisan {layerName} tidak lagi tersedia"
+      },
+      "builder": {
+        "header": {
+          "title": "Widget"
+        },
+        "wizard": {
+          "backToTypeSelection": "Kembali ke pemilihan jenis bagan",
+          "backToWidgetTypeSelection": "Kembali ke pemilihan jenis widget",
+          "backToFeatureGrid": "Kembali ke kisi fitur",
+          "backToLayerSelection": "Kembali ke pemilihan lapisan",
+          "backToMapSelection": "Kembali ke pemilihan peta",
+          "backToPreview": "Kembali ke Pratinjau",
+          "backToChartOptions": "Kembali ke opsi bagan",
+          "selectALayer": "Pilih lapisan",
+          "selectAMap": "Pilih peta",
+          "configureChartOptions": "Konfigurasikan opsi bagan",
+          "configureWidgetOptions": "Konfigurasikan opsi widget",
+          "backToTableOptions": "Kembali ke opsi tabel",
+          "configureTableOptions": "Konfigurasikan opsi tabel",
+          "resetColumnsSizes": "Setel ulang semua perubahan pada ukuran kolom",
+          "updateWidget": "Perbarui widgetnya",
+          "addTheWidget": "Tambahkan gawit",
+          "titlePlaceholder": "Sisipkan judul...",
+          "textPlaceholder": "Sisipkan teks...",
+          "useThisMap": "Gunakan peta ini",
+          "configureMapOptions": "Konfigurasi opsi peta",
+          "enableIdentifyTool": "Aktifkan alat identifikasi",
+          "disableIdentifyTool": "Nonaktifkan alat identifikasi",
+          "preview": "Pratinjau",
+          "addLayer": "Tambahkan lapisan ke peta",
+          "useTheSelectedLayer": "Gunakan lapisan yang dipilih",
+          "connectToAMap": "Hubungkan ke widget lain",
+          "connectToTheMap": "Hubungkan ke peta",
+          "selectMapToConnect": "Pilih widget untuk dihubungkan",
+          "clearConnection": "Koneksi yang jelas",
+          "classAttributes": {
+            "classColor": "Warna Kelas",
+            "classLabel": "Label Kelas",
+            "classValue": "Nilai Kelas",
+            "color": "Warna",
+            "confirmModalMessage": "Tutup dan buang nilai yang tidak diklasifikasikan?",
+            "classificationAttribute": "Atribut Klasifikasi",
+            "customLabels": "Label Kustom",
+            "barChartCustomLabelsExample": "<div><p><code>${legendValue}</code> dapat digunakan sebagai placeholder untuk Atribut Y.</p><p></p><h5>Contoh</h5><dl><dt><b>Atribut Y:</b></dt><dd>POPULASI</dd><dt><b>Label Kelas:</b></dt><dd><code>${legendValue}</code> California</dd><dt><b>Hasil:</b></dt><dd>POPULASI California</dd></dl></div>",
+            "pieChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> dapat digunakan sebagai placeholder untuk Group By Attribute.</p><p>item legenda dengan konten teks yang sama akan dikelompokkan dalam bagan.</p><h5>Contoh</h5><dl><dt><b>Atribut:</b></dt><dd>POPULASI</dd><dt><b>Label Kelas:</b></dt><dd><code>${groupByValue}</code> California</dd><dt><b>Hasil:</b></dt><dd>POPULASI California</dd></dl></div>",
+            "pieRangeDefaultChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> dapat digunakan sebagai placeholder untuk Group By Attribute.</p><p>item legenda dengan konten teks yang sama akan dikelompokkan dalam bagan.</p><h5>Contoh</h5><dl><dt><b>Atribut:</b></dt><dd>POPULASI</dd><dt><b>Label Kelas:</b></dt><dd><code>${groupByValue}</code> California</dd><dt><b>Hasil:</b></dt><dd>POPULASI California</dd></dl></div>",
+            "pieRangeClassChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> dapat digunakan sebagai placeholder untuk Group By Attribute.</p><p><code>${legendValue}</code> dapat digunakan sebagai placeholder untuk Atribut Y.</p><p><code>${minValue}</code> dapat digunakan sebagai placeholder untuk kelas Min Value.</p><p><code>${maxValue}</code> dapat digunakan sebagai placeholder untuk Nilai Maks kelas.</p><p>item legenda dengan konten teks yang sama akan dikelompokkan dalam bagan.</p><h5>Contoh</h5><dl><dt><b>Kelompokkan Berdasarkan Atribut:</b></dt><dd>POPULASI</dd><dt><b>Atribut Y:</b></dt><dd>LAND_KM</dd><dt><b>Nilai Min:</b></dt><dd>0</dd><dt><b>Nilai Maks:</b></dt><dd>10.000</dd><dt><b>Label Kelas:</b></dt><dd><code>${groupByValue}</code> California<code>${legendValue}</code>: <code>${minValue}</code> - <code>${maxValue}</code></dd><dt><b>Hasil:</b></dt><dd>POPULASI California LAND_KM: 0 - 10.000</dd></dl></div>",
+            "barRangeDefaultChartCustomLabelsExample": "<div><p><code>${legendValue}</code> dapat digunakan sebagai placeholder untuk Atribut Y.</p><p></p><h5>Contoh</h5><dl><dt><b>Atribut Y:</b></dt><dd>POPULASI</dd><dt><b>Label Kelas:</b></dt><dd><code>${legendValue}</code> California</dd><dt><b>Hasil:</b></dt><dd>POPULASI California</dd></dl></div>",
+            "barRangeClassChartCustomLabelsExample": "<div><p><code>${minValue}</code> dapat digunakan sebagai placeholder untuk kelas Min Value.</p><p><code>${maxValue}</code> dapat digunakan sebagai placeholder untuk Nilai Maks kelas.</p><p><code>${legendValue}</code> dapat digunakan sebagai placeholder untuk Atribut Y.</p><p>item legenda dengan konten teks yang sama akan dikelompokkan dalam bagan.</p><h5>Contoh</h5><dl><dt><b>Atribut:</b></dt><dd>POPULASI</dd><dt><b>Label Kelas:</b></dt><dd><code>${groupByValue}</code> California</dd><dt><b>Hasil:</b></dt><dd>POPULASI California</dd></dl></div>",
+            "defaultClassLabel": "Label Kelas Default",
+            "defaultColorRamp": "Ramp Warna Default",
+            "defaultColor": "Warna Standar",
+            "defaultCustomLabel": "Label Bawaan",
+            "editCustomColors": "Edit Warna Kustom",
+            "maxValue": "Nilai Maks",
+            "minValue": "Nilai Min",
+            "title": "Pengaturan Warna Kustom"
+          }
+        },
+        "errors": {
+          "noAttributesTitle": "Tidak ada atribut untuk ditampilkan",
+          "noAttributesDescription": "Lapisan yang dipilih tidak memiliki atribut untuk ditampilkan. ",
+          "noWidgetsAvailableTitle": "Tidak dapat membuat widget untuk lapisan yang dipilih",
+          "noWidgetsAvailableDescription": "<p><strong>Silakan coba untuk memilih jenis lapisan atau widget lain</strong></p><p>Server tidak menyediakan layanan yang diperlukan untuk lapisan dan jenis widget yang dipilih</p><p>Kemungkinan penyebabnya adalah: <ul><li>Lapisan yang dipilih adalah lapisan raster</li><li>Layanan WFS tidak tersedia</li><li>Proses WPS <code>gs: agregat</code> tidak tersedia</li></ul></p>",
+          "checkAtLeastOneAttribute": "Anda harus memilih setidaknya satu kolom",
+          "noMapAvailableForLegend": "Tidak ada peta yang tersedia",
+          "noMapAvailableForLegendDescription": "Anda memerlukan setidaknya satu widget peta untuk membuat legenda"
+        },
+        "setupFilter": "Konfigurasikan filter untuk data widget"
+      },
+      "widget": {
+        "menu": {
+          "showChartData": "Tampilkan data bagan",
+          "edit": "Sunting",
+          "delete": "Menghapus",
+          "collapse": "Runtuh",
+          "confirmDelete": "Apa kamu yakin?",
+          "downloadData": "Unduh Data",
+          "exportImage": "Ekspor Gambar",
+          "maximize": "Maksimalkan",
+          "minimize": "Memperkecil",
+          "pin": "Pin",
+          "unpin": "Membuka peniti",
+          "hide": "Bersembunyi",
+          "hideDescription": "Sembunyikan widget ini ke pengguna lain",
+          "unhide": "Perlihatkan",
+          "unhideDescription": "Perlihatkan widget ke pengguna lain"
+        }
+      },
+      "chartType": {
+        "bar": {
+          "title": "Grafik batang",
+          "description": "Buat bagan batang untuk ditambahkan ke peta",
+          "caption": "batang"
+        },
+        "pie": {
+          "title": "Pie chart",
+          "description": "Buat diagram lingkaran untuk ditambahkan ke peta",
+          "caption": "pai"
+        },
+        "line": {
+          "title": "Bagan Garis",
+          "description": "Buat bagan garis untuk ditambahkan ke peta",
+          "caption": "garis"
+        },
+        "gauge": {
+          "title": "Bagan Pengukur",
+          "description": "Buat diagram pengukur untuk ditambahkan ke peta",
+          "caption": "mengukur"
+        }
+      },
+      "chartOptionsTitle": "Konfigurasi data",
+      "widgetOptionsTitle": "Konfigurasikan Info Widget",
+      "placeHolder": {
+        "default": "Pilih atribut"
+      },
+      "operations": {
+        "COUNT": "MENGHITUNG",
+        "SUM": "JUMLAH",
+        "AVG": "AVG",
+        "STDDEV": "STDDEV",
+        "MIN": "MIN",
+        "MAX": "MAKS",
+        "NONE": "Tanpa Operasi"
+      },
+      "groupByAttributes": {
+        "line": "Atribut X",
+        "pie": "Kelompokkan Menurut",
+        "bar": "Atribut X",
+        "gauge": "Kelompokkan Menurut",
+        "counter": "Kelompokkan Menurut",
+        "default": "Kelompokkan Menurut"
+      },
+      "aggregationAttribute": {
+        "line": "Atribut Y",
+        "pie": "Menggunakan",
+        "bar": "Atribut Y",
+        "gauge": "Menggunakan",
+        "counter": "Menggunakan",
+        "default": "Menggunakan"
+      },
+      "aggregateFunction": {
+        "line": "Operasi",
+        "pie": "Operasi",
+        "bar": "Operasi",
+        "gauge": "Operasi",
+        "counter": "Operasi",
+        "default": "Operasi"
+      },
+      "colorRamp": {
+        "line": "Warna",
+        "pie": "Ramp Warna",
+        "bar": "Warna",
+        "gauge": "Warna",
+        "counter": "Warna",
+        "default": "Warna"
+      },
+      "uom": {
+        "line": "Satuan ukuran",
+        "pie": "Satuan ukuran",
+        "bar": "Satuan ukuran",
+        "gauge": "Satuan ukuran",
+        "counter": "Satuan ukuran",
+        "default": "Satuan ukuran"
+      },
+      "mapSync": "Filter Langsung berdasarkan viewport",
+      "displayLegend": {
+        "line": "Tampilkan Legenda",
+        "pie": "Tampilkan Legenda",
+        "bar": "Tampilkan Legenda",
+        "gauge": "Tampilkan label"
+      },
+      "advanced": {
+        "displayCartesian": "Sembunyikan Kotak",
+        "xAxis": "sumbu X",
+        "xAxisAngle": "Rotasi label",
+        "hideLabels": "Sembunyikan label",
+        "format": "Format",
+        "prefix": "Awalan",
+        "suffix": "Akhiran",
+        "examples": "Contoh",
+        "formatExamples": "<div><ul><li><code>0,0%</code>: persentase pembulatan, '12%'</li><li><code>.2s</code>: SI-awalan dengan dua angka penting, '42M'</li><li><code>,.2r</code>: mengelompokkan ribuan dengan dua angka penting '4.200'</li></ul><em>Informasi lebih lanjut tentang pemformatan sintaks <a target=\"_blank\" href=\"https://d3-wiki.readthedocs.io/zh_CN/master/Formatting/\">di sini</a>.</em></div>",
+        "formula": "Rumus",
+        "formulaExamples": "<div>Transformasikan nilai menggunakan rumus.  <code>nilai</code> dalam ekspresi:<h5>Contoh</h5><ul><li><code>nilai 2</code></li><li><code>nilai / 100</code></li></ul><em>Informasi lebih lanjut tentang sintaks <a target=\"_blank\" href=\"https://github.com/m93a/filtrex#expressions\">di sini</a>.</em></div>",
+        "xAxisType": "Jenis",
+        "forceTicks": "Jangan pernah melewatkan label",
+        "maxXAxisLabels": "Label tidak boleh lebih dari {max}",
+        "yAxis": "sumbu Y",
+        "yAxisType": "Jenis",
+        "yAxisLabel": "Label Legenda",
+        "title": "Opsi Lanjutan",
+        "legend": "Legenda",
+        "barChartType": "Jenis Bagan Batang",
+        "groupedBarChart": "Dikelompokkan",
+        "stackedBarChart": "Ditumpuk",
+        "axisTypes": {
+          "auto": "Mobil",
+          "linear": "Linier",
+          "category": "Kategori",
+          "log": "Catatan",
+          "date": "Tanggal"
+        }
+      },
+      "tray": {
+        "title": "Widget",
+        "expandTray": "Perluas baki widget",
+        "collapseTray": "Ciutkan baki widget",
+        "expandAll": "Perluas semua widget",
+        "collapseAll": "Ciutkan semua widget",
+        "notifications": {
+          "collapsed": {
+            "message": "Timeline dan widget tidak bisa tinggal pada waktu yang sama. ",
+            "timelineTitle": "Linimasa telah diciutkan",
+            "widgetsTitle": "Widget telah diciutkan"
+          }
+        }
+      }
+    },
+    "dashboard": {
+      "loadingSpinner": "Memuat Dasbor",
+      "errors": {
+        "loading": {
+          "title": "Galat memuat dasbor",
+          "dashboardNotAccessible": "Anda tidak memiliki izin untuk mengakses dasbor ini. ",
+          "pleaseLogin": "Dasbor ini tidak untuk umum. ",
+          "dashboardDoesNotExist": "Dasbor yang Anda coba akses tidak ada",
+          "unknownError": "Terjadi kesalahan saat memuat dasbor. ",
+          "notFound": "Dasbor tidak ditemukan",
+          "notAccessible": "Dasbor tidak dapat diakses"
+        },
+        "resourceAlreadyExists": "Sumber daya dengan nama ini sudah ada",
+        "forbidden": "Terjadi galat tak terduga (403 Terlarang). ",
+        "forbidden405": "Terjadi galat tak terduga (405 Terlarang). "
+      },
+      "editor": {
+        "save": "Simpan dasbor",
+        "addACardToTheDashboard": "Tambahkan widget ke dasbor",
+        "showConnections": "Tampilkan koneksi",
+        "hideConnections": "Sembunyikan Koneksi"
+      },
+      "emptyTitle": "Dasbor kosong"
+    },
+    "dashboardEmbedded": {
+      "loadingSpinner": "Memuat Dasbor",
+      "errors": {
+        "loading": {
+          "title": "Galat memuat dasbor",
+          "dashboardNotAccessible": "Anda tidak memiliki izin untuk mengakses dasbor ini",
+          "pleaseLogin": "Dasbor ini tidak untuk umum",
+          "dashboardDoesNotExist": "Dasbor yang Anda coba akses tidak ada",
+          "unknownError": "Terjadi kesalahan saat memuat dasbor",
+          "notFound": "Dasbor tidak ditemukan",
+          "notAccessible": "Dasbor tidak dapat diakses"
+        }
+      },
+      "emptyTitle": "Dasbor kosong"
+    },
+    "context": {
+      "loadingSpinner": "Memuat Konteks",
+      "errors": {
+        "loading": {
+          "title": "Terjadi kesalahan saat memuat konteks",
+          "pleaseLogin": "Beberapa sumber daya mungkin tidak bersifat publik. ",
+          "unknownError": "Terjadi kesalahan saat memuat peta atau konteks. ",
+          "notFound": "Sumber tidak ditemukan",
+          "notAccessible": "Sumber daya tidak dapat diakses"
+        },
+        "context": {
+          "pleaseLogin": "Konteks ini tidak bersifat publik. ",
+          "unknownError": "Terjadi kesalahan saat memuat konteks. ",
+          "notFound": "Konteks yang Anda coba akses tidak ada",
+          "notAccessible": "Anda tidak memiliki izin yang tepat untuk mengakses konteks ini. "
+        },
+        "template": {
+          "title": "Terjadi kesalahan saat memuat template",
+          "notAccessible": "Anda tidak memiliki izin untuk mengakses template ini. ",
+          "pleaseLogin": "Templat ini bukan untuk umum. ",
+          "unknownError": "Terjadi kesalahan saat memuat template. ",
+          "notFound": "Templat yang Anda coba akses tidak ada"
+        },
+        "map": {
+          "pleaseLogin": "Peta ini atau peta tidak untuk umum. ",
+          "unknownError": "Terjadi kesalahan saat memuat peta. ",
+          "notFound": "Peta yang Anda coba akses tidak ada",
+          "notAccessible": "Anda tidak memiliki izin yang tepat untuk mengakses peta ini. "
+        },
+        "plugins": {
+          "upload": "Kesalahan selama pengunggahan plugin",
+          "uninstall": "Kesalahan selama penginstalan plugin"
+        },
+        "resourceAlreadyExists": "Sumber daya dengan nama ini sudah ada"
+      }
+    },
+    "wizard": {
+      "next": "Lanjut",
+      "prev": "Sebelumnya",
+      "finish": "Menyelesaikan"
+    },
+    "vectorstyler": {
+      "tooltip": "Membuat dan mengedit gaya lapisan vektor",
+      "paneltitle": "Penata Vektor",
+      "layerlabel": "Lapisan",
+      "rulelabel": "Aturan",
+      "namelabel": "Nama aturan",
+      "symboltitle": "Simbol",
+      "labeltitle": "Label",
+      "conditiontitle": "Kondisi",
+      "applybtn": "Terapkan Gaya",
+      "addrulebtn": "Tambahkan Aturan",
+      "removerulebtn": "Hapus Aturan"
+    },
+    "scaledenominator": {
+      "minlabel": "Penyebut Skala Min",
+      "maxlabel": "Penyebut Skala Maks",
+      "maxerror": "Nilai maks harus lebih besar dari nilai min",
+      "minerror": "Nilai min harus kurang dari nilai maks",
+      "none": "Tidak ada"
+    },
+    "markNameSelector": {
+      "circle": "Lingkaran",
+      "square": "Persegi",
+      "triangle": "Segi tiga",
+      "star": "Bintang",
+      "cross": "Menyeberang",
+      "x": "X"
+    },
+    "styler": {
+      "tooltip": "Membuat dan mengedit gaya lapisan",
+      "paneltitle": "Styler",
+      "layerlabel": "Lapisan"
+    },
+    "styleeditor": {
+      "styleListfilterPlaceholder": "Filter gaya berdasarkan nama, judul, atau abstrak",
+      "templateFilterPlaceholder": "Filter gaya template berdasarkan judul",
+      "createStyleFromTemplate": "Pilih template untuk membuat gaya baru",
+      "titleRequired": "<div>Judul diperlukan!</div><div>Judul dan abstrak harus alfanumerik</div>",
+      "titleSettings": "Judul",
+      "titleSettingsplaceholder": "Masukkan judul (alfanumerik)",
+      "abstractSettings": "Abstrak",
+      "abstractSettingsplaceholder": "Masukkan abstrak (alfanumerik)",
+      "createStyleModalTitle": "Buat gaya baru",
+      "filterMatchNotFound": "Tidak ada gaya yang cocok dengan filter teks yang dimasukkan",
+      "backToList": "Kembali ke daftar gaya",
+      "createNewStyle": "Buat gaya baru",
+      "editSelectedStyle": "Edit gaya yang dipilih",
+      "saveCurrentStyle": "Simpan gaya saat ini",
+      "addSelectedTemplate": "Tambahkan template yang dipilih ke daftar gaya",
+      "deleteSelectedStyle": "Hapus gaya yang dipilih",
+      "closeWithoutSaveAlertTitle": "Gaya telah berubah",
+      "closeWithoutSaveAlert": "Anda keluar dari editor gaya tanpa menyimpan perubahan Anda",
+      "deleteStyleAlertTitle": "Hapus gaya",
+      "deleteStyleAlert": "Gaya yang dipilih akan dihapus secara permanen",
+      "delete": "Menghapus",
+      "defaultStyle": "Gaya bawaan",
+      "availableStyle": "Gaya yang tersedia",
+      "styleNotFound": "Gaya tidak ditemukan",
+      "noPermission": "Pengguna tidak dapat mengedit gaya",
+      "deletedStyleSuccessTitle": "Hapus gaya",
+      "deletedStyleSuccessMessage": "Gaya telah berhasil dihapus",
+      "deletedStyleErrorTitle": "Hapus kesalahan gaya",
+      "deletedStyleErrorMessage": "Tidak dapat menghapus gaya saat ini",
+      "savedStyleTitle": "Gaya disimpan",
+      "savedStyleMessage": "Gaya telah berhasil disimpan",
+      "errorTitle": "Kesalahan Editor Gaya",
+      "parsingCapabilitiesError": "<h4>Kemungkinan penyebab:</h4> itu tidak mungkin menguraikan kemampuan dan mengambil gaya",
+      "globalError": "<h4>Kemungkinan penyebab:</h4> itu tidak mungkin untuk terhubung ke layanan",
+      "missingAvailableStylesMessage": "<ul><h4>Kemungkinan penyebab:</h4> <li>Lapisan yang dipilih adalah kelompok lapisan</li><li>Lapisan tidak dikonfigurasi dengan benar di sisi server</li></ul>",
+      "createTmpErrorTitle": "Gaya Sementara Baru",
+      "createTmpStyleErrorMessage": "Gaya sementara tidak dapat dibuat. ",
+      "updateTmpErrorTitle": "Pembaruan Gaya Sementara",
+      "updateTmpStyleErrorMessage": "Gaya sementara tidak dapat diperbarui. ",
+      "createStyleErrorTitle": "Gaya baru",
+      "createStyleErrorMessage": "Gaya tidak dapat disimpan di layanan gaya. ",
+      "updateStyleErrorTitle": "Sunting Gaya",
+      "updateStyleErrorMessage": "Gaya tidak dapat diperbarui pada layanan gaya. ",
+      "validationErrorTitle": "Kesalahan Validasi",
+      "genericValidationError": "Gaya tidak valid dan tidak dapat diterapkan.",
+      "setDefaultStyle": "Tetapkan gaya yang dipilih sebagai default untuk lapisan saat ini",
+      "setDefaultStyleSuccessTitle": "Sukses mengatur gaya default",
+      "setDefaultStyleSuccessMessage": "Gaya Default telah berhasil diterapkan",
+      "setDefaultStyleErrorTitle": "Kesalahan saat menyetel gaya default",
+      "setDefaultStyleErrorMessage": "Tidak mungkin menerapkan gaya yang dipilih sebagai default",
+      "enterLegendLabelPlaceholder": "Masukkan label legenda",
+      "addMarkSymbolizer": "Tambahkan simbol simbol",
+      "addMarkRule": "Tambahkan aturan tanda",
+      "shape": "Membentuk",
+      "fill": "Isi warna",
+      "strokeColor": "Warna sapuan",
+      "strokeWidth": "Lebar goresan",
+      "radius": "Radius",
+      "rotation": "Rotasi",
+      "addIconSymbolizer": "Tambahkan simbol ikon",
+      "addIconRule": "Tambahkan aturan ikon",
+      "image": "Gambar",
+      "format": "Format",
+      "opacity": "Kegelapan",
+      "size": "Ukuran",
+      "addLineSymbolizer": "Tambahkan simbol garis",
+      "addLineRule": "Tambahkan aturan baris",
+      "lineStyle": "Gaya garis",
+      "lineCap": "Tutup baris",
+      "lineJoin": "Baris bergabung",
+      "addFillSymbolizer": "Tambahkan simbol isian",
+      "addFillRule": "Tambahkan aturan isian",
+      "outlineColor": "Warna garis luar",
+      "outlineWidth": "Garis luar lebar",
+      "addTextSymbolizer": "Tambahkan simbol teks",
+      "addTextRule": "Tambahkan aturan teks",
+      "label": "Label",
+      "fontFamily": "keluarga font",
+      "fontColor": "Warna huruf",
+      "fontSize": "Ukuran huruf",
+      "fontStyle": "Gaya tulisan",
+      "fontWeight": "Berat font",
+      "haloColor": "Halo warna",
+      "haloWidth": "Halo lebar",
+      "offsetX": "mengimbangi x",
+      "offsetY": "Offset y",
+      "addRasterSymbolizer": "Tambahkan simbol raster",
+      "addRasterRule": "Tambahkan aturan raster",
+      "colorRamp": "Jalur warna",
+      "reverse": "Urutan terbalik",
+      "attribute": "Atribut",
+      "method": "metode",
+      "intervals": "Interval",
+      "continuous": "Warna terus menerus",
+      "lineCapButt": "Pantat",
+      "lineCapRound": "Bulat",
+      "lineCapSquare": "Persegi",
+      "lineJoinBevel": "Memiringkan",
+      "lineJoinRound": "Bulat",
+      "lineJoinMiter": "Gelar uskup",
+      "fontStyleNormal": "Normal",
+      "fontStyleItalic": "Miring",
+      "fontWeightNormal": "Normal",
+      "fontWeightBold": "Berani",
+      "boolTrue": "BENAR",
+      "boolFalse": "PALSU",
+      "colorMapType": {
+        "label": "Jenis peta warna",
+        "ramp": "Lereng",
+        "intervals": "Interval",
+        "values": "Nilai"
+      },
+      "addRuleBefore": "Tambahkan entri baru sebelumnya",
+      "addRuleAfter": "Tambahkan entri baru setelah",
+      "remove": "Menghapus",
+      "circle": " Lingkaran",
+      "square": "Persegi",
+      "triangle": "Segi tiga",
+      "star": "Bintang",
+      "cross": "Menyeberang",
+      "x": "X",
+      "verticalLine": "Garis vertikal",
+      "horizontalLine": "Garis horisontal",
+      "slash": "Memotong",
+      "backslash": "Garis miring terbalik",
+      "dot": "Dot",
+      "plus": "Plus",
+      "times": "Waktu",
+      "openArrow": "Buka panah",
+      "closedArrow": "Panah tertutup",
+      "band": "Pita",
+      "none": "Tidak ada",
+      "normalize": "Normalisasikan",
+      "histogram": "Histogram",
+      "contrastEnhancement": "Peningkatan kontras",
+      "placeholderInput": "Masukkan nilai",
+      "placeholderEnterImageUrl": "Masukkan url gambar",
+      "selectPlaceholder": "Pilih nilai",
+      "noResultsSelectInput": "Tidak ada hasil",
+      "channelAuto": "Mobil",
+      "openFilterBuilder": "Buka pembuat filter",
+      "removeRule": "Hapus aturan",
+      "openScaleDenominator": "Filter penyebut skala terbuka",
+      "selectScale": "Pilih skala",
+      "noResultScales": "Tidak ada skala yang cocok dengan filter Anda",
+      "maxScaleDenominator": "Skala maks",
+      "minScaleDenominator": "Skala min",
+      "simpleStyle": "Gaya sederhana",
+      "classificationStyle": "Gaya klasifikasi",
+      "patternMarkStyle": "Gaya tanda pola",
+      "patternIconStyle": "Gaya ikon pola",
+      "singleBand": "Band tunggal",
+      "rgbaBands": "Pita RGB",
+      "pseudoColor": "Warna semu",
+      "undoStyle": "Batalkan gaya",
+      "redoStyle": "Mengulangi gaya",
+      "equalInterval": "Interval yang sama",
+      "uniqueInterval": "Interval unik",
+      "quantile": "Kuantil",
+      "jenks": "Istirahat alami (Jenks)",
+      "standardDeviation": "Standar deviasi",
+      "switchToTextareaEditor": "Editor kode",
+      "switchToVisualEditor": "Editor visual",
+      "alertForceTranslate": "Anda akan kehilangan semua perubahan yang ditambahkan dalam mode teks dengan beralih ke editor visual. ",
+      "stayInTextareaEditor": "Tidak, lanjutkan dengan editor teks",
+      "useLatestValidStyle": "Ya, beralihlah ke editor visual",
+      "validationError": "Kesalahan validasi",
+      "incorrectPropertyInputError": "Ini mungkin karena nilai yang hilang atau tidak valid pada input properti dari editor gaya.",
+      "emptyRuleEditorTitle": "Tambahkan aturan baru",
+      "emptyRuleEditor": "Tidak ada aturan untuk gaya ini. ",
+      "classificationError": "Layanan tidak tersedia. ",
+      "classificationRasterError": "Layanan tidak tersedia. ",
+      "classificationRasterUniqueIntervalError": "Tidak dapat melakukan klasifikasi nilai unik pada raster tipe float, hanya bilangan bulat yang didukung. ",
+      "classificationUniqueIntervalError": "Batas interval maksimum terlampaui! ",
+      "redChannel": "Jalur Merah",
+      "greenChannel": "Jalur Hijau",
+      "blueChannel": "saluran biru",
+      "grayChannel": "Saluran",
+      "ruleClassification": "Klasifikasi",
+      "ruleRaster": "Raster",
+      "customInterval": "Interval Kustom",
+      "styleEmpty": "Gaya ini tidak memiliki aturan",
+      "incompleteClassification": "Klasifikasi tidak lengkap karena entri tidak tersedia. ",
+      "imageSrcEmpty": "URL sumber gambar tidak ada dalam gaya ikon",
+      "imageSrcLoadError": "Sumber gambar yang diberikan tidak dapat dimuat. ",
+      "imageSrcInvalidBase64": "Ini bukan gambar base64 yang valid. ",
+      "imageSrcNotSupportedBase64Image": "Beberapa perender gaya tidak mendukung gambar base64 meskipun sumber saat ini valid",
+      "imageFormatEmpty": "Format gambar tidak dapat diidentifikasi. ",
+      "warningTextOrderTitle": "Peringatan",
+      "warningTextOrder": "Urutan aturan yang berisi gaya teks tidak cocok dengan urutan rendering pada peta. "
+    },
+    "playback": {
+      "settings": {
+        "tooltip": "Pengaturan",
+        "title": "Pengaturan Pemutaran",
+        "frameDuration": "Durasi Bingkai",
+        "range": {
+          "title": "Rentang Animasi",
+          "zoomTooltip": "Zoom ke rentang animasi saat ini",
+          "animationStart": "Animasi dimulai",
+          "animationEnd": "Akhir animasi",
+          "zoomToCurrentPlayackRange": "Zoom ke rentang pemutaran saat ini",
+          "setToCurrentViewRange": "Setel ke rentang tampilan saat ini",
+          "fitToSelectedLayerRange": "Sesuaikan dengan rentang lapisan yang dipilih"
+        },
+        "step": {
+          "tooltip": "Saat opsi 'Snap to guide Layer' dinonaktifkan, Anda dapat menyesuaikan langkah animasi",
+          "label": "Langkah Animasi",
+          "year": "{angka, jamak, =0 {Tahun} =1 {Tahun} lainnya {Tahun}}",
+          "week": "{angka, jamak, =0 {Minggu} =1 {Minggu} lainnya {Minggu}}",
+          "day": "{angka, jamak, =0 {Hari} =1 {Hari} lainnya {Hari}}",
+          "hour": "{angka, jamak, =0 {Jam} =1 {Jam} lainnya {Jam}}",
+          "minute": "{angka, jamak, =0 {Menit} =1 {Menit} lainnya {Menit}}",
+          "second": "{angka, jamak, =0 {Detik} =1 {Detik} lainnya {Detik}}"
+        },
+        "mode": {
+          "title": "Mode",
+          "following": "Ikuti animasinya",
+          "followingDescription": "Saat animasi aktif, ikuti kursor"
+        }
+      },
+      "backwardStep": "Langkah mundur",
+      "forwardStep": "Maju",
+      "play": "Bermain",
+      "pause": "Berhenti sebentar",
+      "paused": "Putar (dijeda)",
+      "stop": "Berhenti"
+    },
+    "timeline": {
+      "settings": {
+        "title": "Pengaturan Garis Waktu",
+        "snapToGuideLayer": "Jepret untuk memandu lapisan",
+        "snapToGuideLayerTooltip": "Memaksa kursor waktu untuk mengambil data lapisan yang dipilih. "
+      },
+      "hide": "Sembunyikan garis waktu",
+      "show": "Tampilkan garis waktu",
+      "mapSyncOn": "Tampilkan sepanjang waktu, tanpa memfilter menurut viewport",
+      "mapSyncOff": "Hanya tampilkan waktu yang tersedia di viewport saat ini",
+      "currentTime": "Pergi ke waktu saat ini",
+      "rangeStart": "Pergi ke rentang waktu saat ini",
+      "rangeEnd": "Pergi ke rentang waktu saat ini",
+      "hideLayerName": "Sembunyikan nama lapisan",
+      "showLayerName": "Tampilkan nama lapisan",
+      "enableRange": "Aktifkan rentang waktu",
+      "disableRange": "Nonaktifkan rentang waktu",
+      "enablePlayBack": "Aktifkan kontrol pemutaran",
+      "disablePlayBack": "Nonaktifkan kontrol pemutaran",
+      "expand": "Perluas penggeser waktu",
+      "collapse": "Ciutkan penggeser waktu",
+      "collapsed": {
+        "title": "Linimasa telah diciutkan",
+        "tooltip": "Klik di sini untuk meluaskannya lagi"
+      },
+      "errors": {
+        "multidim_error_title": "Layanan backend tidak merespons",
+        "multidim_error_message": "Layanan yang diperlukan untuk dukungan multidimensi tidak merespons. "
+      }
+    },
+    "rulesmanager": {
+      "apply": "Berlaku",
+      "remove": "Hapus geometri",
+      "resetconstraints": "Mereset Kendala",
+      "constraintsmsg": "Mengubah hibah, ruang kerja atau lapisan, detailnya akan dihapus. ",
+      "defstyle": "Gaya Default",
+      "avstyle": "Gaya yang Tersedia",
+      "clearbtn": "Bersihkan semua",
+      "selectbtn": "Pilih Semua",
+      "placeholders": {
+        "role": "Ketik untuk mencari Peran",
+        "user": "Ketik untuk mencari Pengguna",
+        "service": "Ketik untuk mencari Layanan",
+        "request": "Ketik untuk mencari Permintaan",
+        "workspace": "Ketik untuk mencari Ruang Kerja",
+        "layer": "Ketik untuk mencari Lapisan",
+        "access": "Ketik untuk mencari Access",
+        "ip": "",
+        "priority": "Pilih Prioritas",
+        "filter": "Filter gaya..."
+      },
+      "menutitle": "Kelola Aturan Akses",
+      "tooltip": {
+        "addT": "Tambahkan aturan",
+        "editT": "Edit aturan yang dipilih",
+        "addBeT": "Tambahkan aturan baru sebelum dipilih",
+        "addAfT": "Tambahkan aturan baru setelah dipilih",
+        "deleteT": "Hapus aturan yang dipilih",
+        "cacheT": "Hapus cache",
+        "save": "Simpan aturan saat ini",
+        "close": "Keluar dari aturan buat"
+      },
+      "navItems": {
+        "main": "Peraturan umum",
+        "style": "Gaya",
+        "filter": "Filter",
+        "attribute": "Aturan Atribut"
+      },
+      "rule": "Aturan",
+      "cachetitle": "Hapus Cache",
+      "cachemsg": "Apakah Anda yakin untuk menghapus cache aturan?",
+      "deltitle": "Hapus Aturan",
+      "delmsg": "Apakah Anda benar-benar ingin menghapus aturan ini?",
+      "invalidForm": "Bentuknya adalah nilai bidang cek yang tidak valid",
+      "ip": "AKU P",
+      "title": "Aturan Akses",
+      "role": "Wewenang",
+      "user": "Pengguna",
+      "priority": "Prioritas",
+      "service": "Melayani",
+      "request": "Meminta",
+      "workspace": "Ruang kerja",
+      "layer": "Lapisan",
+      "filters": "Filter",
+      "rules": "Aturan",
+      "access": "Mengakses",
+      "newModal": "Aturan baru",
+      "editModal": "Sunting Aturan",
+      "newButton": "Membuat",
+      "editButton": "Menyimpan",
+      "close": "Menutup",
+      "previous": "sebelumnya",
+      "next": "lanjut",
+      "cacheCleaned": "Cache berhasil dibersihkan",
+      "errorTitle": "Geofence",
+      "errorCQL": "Geometri tidak valid!",
+      "errorCleaningCache": "Kesalahan membersihkan cache aturan.",
+      "errorLoadingRoles": "Terjadi kesalahan saat memuat peran.",
+      "errorLoadingUsers": "Terjadi kesalahan saat memuat pengguna.",
+      "errorLoadingWorkspaces": "Terjadi error saat memuat ruang kerja.",
+      "errorLoadingLayers": "Terjadi kesalahan saat memuat lapisan.",
+      "errorLoadingRules": "Kesalahan memuat aturan.",
+      "errorMovingRules": "Kesalahan memindahkan aturan.",
+      "errorDeletingRules": "Kesalahan saat menghapus aturan.",
+      "errorAddingRule": "Terjadi error saat menambahkan aturan.",
+      "errorUpdatingRule": "Aturan penyimpanan kesalahan.",
+      "errorDuplicateRule": "Aturan duplikat.",
+      "errorLoading": "Kesalahan memuat",
+      "deleteModal": "Hapus Aturan",
+      "selectedRulesDelete": "Hapus aturan yang dipilih?",
+      "deleteButton": "Menghapus",
+      "cancelButton": "Membatalkan",
+      "cqlRead": "Aturan Baca Filter CQL",
+      "cqlWrite": "Aturan Tulis Filter CQL",
+      "missingconfig": "Manajer aturan melewatkan konfigurasi. ",
+      "selectworkspace": "Anda harus memilih ruang kerja untuk mengaktifkan opsi lanjutan"
+    },
+    "geostory": {
+      "storyResources": "Sumber Cerita",
+      "geostoreMap": "Peta MapStore",
+      "loadingSpinner": "Memuat Cerita",
+      "addTitleSection": "Tambahkan Bagian Judul",
+      "addBannerSection": "Tambahkan Bagian Spanduk",
+      "addParagraphSection": "Tambahkan Bagian Paragraf",
+      "addImmersiveSection": "Tambahkan Bagian Imersif",
+      "addMediaSection": "Tambahkan Bagian Media",
+      "addWebPageSection": "Tambahkan Bagian Halaman Web",
+      "addImmersiveContent": "Tambahkan Konten Imersif",
+      "addGeocarouselSection": "Tambahkan Bagian Geocarousel",
+      "addGeocarouselContent": "Tambahkan Konten Geocarousel",
+      "addTextContent": "Tambahkan Konten Teks",
+      "addMediaContent": "Tambahkan Konten Media",
+      "addWebPageContent": "Tambahkan Konten Halaman Web",
+      "zoomToContent": "Perbesar ke konten",
+      "emptyTitle": "Cerita ini kosong",
+      "emptyDescription": "Mulailah membuat geostory yang mengagumkan dengan menambahkan konten baru",
+      "closeFullscreenMap": "Tutup peta layar penuh",
+      "showFullscreenMap": "Tampilkan peta layar penuh",
+      "carouselAddTitle": "Tambahkan thumbnail kartu baru",
+      "carouselEditTitle": "Edit thumbnail kartu",
+      "carouselAddMapInfo": "Tambahkan peta latar belakang",
+      "carouselAddItemInfo": "Tambahkan penanda baru untuk item carousel yang dipilih",
+      "carouselPlaceMarkerInfo": "Klik pada peta untuk menambahkan penanda baru",
+      "contentToolbar": {
+        "contentSize": "Ubah ukuran",
+        "contentHeightAuto": "Buat bagian ini untuk menyesuaikan dengan ketinggian konten",
+        "contentHeightView": "Buat bagian ini agar sesuai dengan tampilan secara vertikal",
+        "smallSizeLabel": "Kecil",
+        "mediumSizeLabel": "Medium",
+        "largeSizeLabel": "Besar",
+        "fullSizeLabel": "Penuh",
+        "contentAlign": "Sejajarkan konten",
+        "leftAlignLabel": "Kiri",
+        "centerAlignLabel": "Tengah",
+        "rightAlignLabel": "Benar",
+        "contentTheme": "Ubah tema bidang",
+        "brightThemeLabel": "Cerah",
+        "brightTextThemeLabel": "Teks cerah",
+        "darkThemeLabel": "Gelap",
+        "darkTextThemeLabel": "Teks gelap",
+        "defaultThemeLabel": "Bawaan",
+        "customizeThemeLabel": "Sesuaikan",
+        "customizeThemeRemoveLabel": "Hapus penyesuaian",
+        "cover": "Jadikan latar belakang menutupi seluruh ruang kontainer",
+        "fit": "Jadikan seluruh latar belakang terlihat di dalam wadah",
+        "editMedia": "Ubah sumber media",
+        "remove": "Menghapus",
+        "add": "Menambahkan",
+        "edit": "Sunting",
+        "marker": "Tambahkan penanda ke peta",
+        "removeConfirmTitle": "Apa kamu yakin?",
+        "removeConfirmContent": "Apakah Anda ingin menghapus konten ini dari cerita?",
+        "editMap": "Edit konfigurasi peta",
+        "resetMap": "Setel ulang peta ke konfigurasi aslinya",
+        "resetMapConfirm": "Atur Ulang Konfigurasi Peta",
+        "resetConfirmContent": "Kembalikan konfigurasi peta ke yang asli?",
+        "saveChanges": "Simpan perubahan",
+        "closeMapEditing": "Menutup",
+        "confirmCloseMapEditing": "Tutup Pengeditan Peta",
+        "pendingChangesDiscardConfirm": "Buang perubahan peta saat ini?",
+        "editURL": "Edit URL halaman web",
+        "advancedMapEditor": "Buka editor peta tingkat lanjut",
+        "enableAudio": "Aktifkan audio",
+        "disableAudio": "Bisukan video",
+        "enableAutoplay": "Aktifkan putar otomatis",
+        "disableAutoplay": "Nonaktifkan putar otomatis",
+        "enableLoop": "Aktifkan putaran",
+        "disableLoop": "Nonaktifkan putaran",
+        "hideCaption": "Sembunyikan teks",
+        "showCaption": "Gunakan deskripsi sebagai keterangan"
+      },
+      "navigation": {
+        "edit": "Mengedit cerita"
+      },
+      "builder": {
+        "defaults": {
+          "htmlTitlePlaceholder": "Sisipkan judul",
+          "htmlPlaceholder": "Sisipkan teks di sini...",
+          "titleTitle": "Bagian Judul",
+          "titleBanner": "Bagian Spanduk",
+          "titleParagraph": "Bagian Paragraf",
+          "titleImmersive": "Bagian Imersif",
+          "titleImmersiveContent": "Konten Imersif",
+          "titleGeocarousel": "Bagian Geocarousel",
+          "titleGeocarouselContent": "Konten Geocarousel",
+          "titleMedia": "Bagian Media",
+          "titleImage": "Gambar",
+          "titleText": "Teks",
+          "titleWebPage": "Halaman web",
+          "titleWebPageSection": "Bagian Halaman Web",
+          "titleUnknown": "TIDAK DIKENAL"
+        },
+        "delete": "Hapus bagian yang dipilih",
+        "preview": "Tampilkan pratinjau",
+        "edit": "Mengedit cerita",
+        "noContents": "Tidak Ada Konten yang Tersedia",
+        "collapseAll": "Ciutkan semua",
+        "expandAll": "Melebarkan semua",
+        "fullscreen": "Tampilkan pratinjau dalam layar penuh",
+        "settings": {
+          "tooltip": "Pengaturan",
+          "back": "Kembali ke pembina",
+          "backConfirmTitle": "Pengaturan Berubah",
+          "backConfirmBody": "Apakah Anda yakin untuk menutup panel pengaturan tanpa menyimpan perubahan Anda",
+          "backConfirmNo": "Tidak",
+          "backConfirmYes": "Ya",
+          "save": "Simpan Pengaturan",
+          "storyTheme": "Tema cerita",
+          "storyHeader": "Tajuk Cerita",
+          "title": "Judul",
+          "titlePlaceholder": "Masukkan Judul",
+          "logo": "Logo",
+          "logoPlaceholder": "Jatuhkan gambar logo Anda di sini atau klik untuk memilih file gambar (format yang didukung adalah png dan jpeg)",
+          "autoplay": "Putar otomatis",
+          "enableAutoplay": "Aktifkan putar otomatis",
+          "autoplayInterval": "Interval putar otomatis (detik)",
+          "autoplayIntervalPlaceholder": "Aktifkan interval putar otomatis",
+          "navbar": "Bilah navigasi",
+          "showNavbar": "Tampilkan bilah navigasi",
+          "theme": "Tema Bawaan",
+          "fontFamily": "Keluarga Fon",
+          "webFontLoadError": "Gagal memuat beberapa font dari konfigurasi lokal",
+          "fontSize": "Ukuran huruf",
+          "overlay": "Hamparan",
+          "templateTooltip": "Pengaturan ini memungkinkan Anda mengaktifkan fungsi Identifikasi pada peta dengan menentukan format umum untuk semua lapisan.  <a href='https://mapstore.readthedocs.io/en/latest/user-guide/layer-settings/#templates' target='_blank'> panduan pengguna </a>. "
+        }
+      },
+      "errors": {
+        "loading": {
+          "notFound": "Geostori tidak ditemukan",
+          "title": "Kesalahan",
+          "unknownError": "Kesalahan yang tidak diketahui",
+          "pleaseLogin": "Silahkan masuk",
+          "notAccessible": "Cerita ini tidak dapat diakses",
+          "geostoryNotAccessible": "Anda tidak memiliki izin untuk mengakses cerita ini. ",
+          "geostoryDoesNotExist": "Cerita ini tidak ada",
+          "video": "Maaf! "
+        }
+      },
+      "mapEditor": {
+        "configureMapOptions": "Konfigurasikan peta",
+        "settings": "Pengaturan",
+        "settingsSubTitle": "Kelola interaksi pengguna",
+        "toc": "Lapisan",
+        "pan": "Interaksi panci",
+        "zoom": "Perbesar/Perkecil interaksi",
+        "topLeft": "Kiri Atas",
+        "topRight": "Kanan atas",
+        "bottomLeft": "Kiri bawah",
+        "bottomRight": "Kanan bawah",
+        "identify": "Mengenali"
+      },
+      "webPageCreator": {
+        "title": "halaman web",
+        "saveButton": "Menyimpan",
+        "error": "Berikan URL halaman web yang valid",
+        "url": {
+          "label": "URL"
+        }
+      },
+      "customizeTheme": {
+        "backgroundColorLabel": "Latar belakang",
+        "textColorLabel": "Teks",
+        "shadowLabel": "Bayangan",
+        "useAlternativeTextColor": "Gunakan warna teks alternatif",
+        "alternativeTextColorPopover": "<p>Peringatan: warna teks yang dipilih tidak dapat dibaca pada latar belakang ini.</p><p>Warna teks alternatif adalah {color}<span class=\"ms-custom-theme-picker-alternative-text\" style=\"background-color:{color}\"></span></p>"
+      }
+    },
+    "geostoryEmbedded": {
+      "loadingSpinner": "Memuat Cerita",
+      "errors": {
+        "loading": {
+          "notFound": "Geostori tidak ditemukan",
+          "title": "Kesalahan",
+          "unknownError": "Kesalahan yang tidak diketahui",
+          "notAccessible": "Cerita ini tidak dapat diakses",
+          "pleaseLogin": "Sumber daya tidak bersifat publik",
+          "geostoryNotAccessible": "Anda tidak memiliki izin untuk mengakses cerita ini",
+          "geostoryDoesNotExist": "Cerita ini tidak ada"
+        }
+      }
+    },
+    "saveDialog": {
+      "title": "Mengedit properti",
+      "name": "Nama",
+      "description": "Keterangan",
+      "createdAt": "Dibuat",
+      "modifiedAt": "Diubah",
+      "namePlaceholder": "Ketik nama...",
+      "descriptionPlaceholder": "Ketik deskripsi...",
+      "confirmCloseText": "Ada perubahan yang tertunda, yakin ingin menutup tanpa menyimpan?",
+      "close": "Menutup",
+      "cancel": "Membatalkan",
+      "saveSuccessTitle": "Kesuksesan",
+      "saveSuccessMessage": "Berhasil disimpan",
+      "saveTooltip": "Menyimpan",
+      "saveAsTooltip": "Simpan Sebagai"
+    },
+    "mapEditor": {
+      "modalTitle": "Editor Peta",
+      "confirmExitTitle": "Tutup Editor Peta",
+      "confirmExitContent": "Buang perubahan yang tertunda?"
+    },
+    "mediaEditor": {
+      "modalTitle": "Media",
+      "images": "Gambar-gambar",
+      "videos": "Video",
+      "maps": "Peta",
+      "preview": "Pratinjau",
+      "apply": "Berlaku",
+      "confirmExitTitle": "Tutup Editor Media",
+      "confirmExitContent": "Buang perubahan yang tertunda?",
+      "mediaPicker": {
+        "services": "Jasa: ",
+        "clean": "Hasil bersih",
+        "noResults": "Tidak ada hasil",
+        "selectService": "Pilih layanan",
+        "add": "Menambahkan",
+        "back": "Kembali",
+        "save": "Menyimpan",
+        "edit": "Sunting",
+        "sourcePlaceholder": "Masukkan sumber",
+        "source": "Sumber",
+        "titlePlaceholder": "Masukkan judul",
+        "title": "Judul",
+        "altTextPlaceholder": "Masukkan teks alternatif",
+        "altText": "Teks alternatif",
+        "descriptionPlaceholder": "Masukkan deskripsi",
+        "description": "Keterangan",
+        "creditsPlaceholder": "Masukkan kredit",
+        "credits": "Kredit",
+        "mapFilter": "Saring peta",
+        "videoFilter": "Filter video",
+        "imageFilter": "Filter gambar",
+        "import": "Impor sumber daya ke toko lokal",
+        "trash": "Hapus sumber daya",
+        "videoUrl": "URL video",
+        "videoUrlPlaceholder": "Masukkan url video",
+        "thumbnail": "Tambahkan thumbnail (ukuran maksimum 500kb)",
+        "createVideoThumbnail": "Buat thumbnail dari sumber video",
+        "thumbnailCreateError": "Tidak mungkin membuat thumbnail dari sumber video saat ini. "
+      },
+      "mediaform": {
+        "confirmExitTitle": "Tutup Formulir Media",
+        "confirmExitContent": "Buang perubahan yang tertunda?"
+      },
+      "mapForm": {
+        "thumbnailMessage": "Ukuran gambar harus persegi 98px x 98px, maks 100kb",
+        "confirmMapSaveTitle": "Pembaruan Peta",
+        "confirmMapSaveContent": "Memperbarui peta ini akan mengatur ulang semua peta yang bergantung pada cerita yang sebelumnya disesuaikan melalui editor inline, konfirmasi?"
+      },
+      "mediaList": {
+        "removeResourceTitle": "Apa kamu yakin?",
+        "confirmRemoveResource": "Apakah Anda ingin menghapus sumber daya media ini dari cerita?",
+        "confirmRemoveUsedResource": "Sumber daya ini juga akan dihapus dari semua bagian/konten yang digunakan dan dibiarkan kosong. ",
+        "resultsCount": "{count} dari {total} {total, plural, one {Result} other {Hasil}}"
+      },
+      "imageList": {
+        "emptyList": "Klik tombol tambah untuk menambahkan gambar baru.  <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#images' target='_blank'/>di sini</a>"
+      },
+      "mapList": {
+        "emptyList": "Klik tombol tambah untuk membuat peta atau pilih layanan peta yang berbeda.  <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#maps' target='_blank'/>di sini</a>"
+      },
+      "videoList": {
+        "emptyList": "Klik tombol plus untuk menambahkan video baru.  <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#videos' target='_blank'/>di sini</a>"
+      }
+    },
+    "backgroundDialog": {
+      "addTitle": "Tambahkan Latar Belakang Baru",
+      "editTitle": "Edit Latar Belakang Saat Ini",
+      "title": "Judul",
+      "titlePlaceholder": "Masukkan nama yang ditampilkan",
+      "add": "Menambahkan",
+      "thumbnailMessage": "Ukuran gambar harus persegi 98px x 98px atau 128px x 128px, maks 500kb",
+      "additionalParameters": "Parameter Tambahan",
+      "addAdditionalParameterTooltip": "Tambahkan parameter",
+      "removeAdditionalParameterTooltip": "Hapus parameter",
+      "parameter": "Parameter",
+      "value": "Nilai",
+      "string": "Rangkaian",
+      "number": "Nomor",
+      "boolean": "Boolean"
+    },
+    "defaultMapBackgroundsServiceTitle": "Latar Belakang Bawaan",
+    "backgroundSelector": {
+      "addTooltip": "Tambahkan latar belakang baru",
+      "editTooltip": "Mengedit latar belakang",
+      "deleteTooltip": "Hapus latar belakang",
+      "confirmDelete": "Anda yakin ingin menghapus latar belakang \"{title}\"?"
+    },
+    "stepper": {
+      "back": "Kembali",
+      "next": "Lanjut"
+    },
+    "newMapDialog": {
+      "title": "Pilih konteks",
+      "noContexts": "Tidak ada konteks yang ditemukan",
+      "filterPlaceholder": "Telusuri konteks..."
+    },
+    "plugins": {
+      "About": {
+        "description": "Alat yang menampilkan jendela Tentang",
+        "title": "Tentang"
+      },
+      "AddGroup": {
+        "description": "Mengizinkan pengguna membuat grup lapisan baru di TOC",
+        "title": "Tambahkan Grup Lapisan"
+      },
+      "Annotations": {
+        "description": "Alat untuk menggambar anotasi di peta",
+        "title": "Anotasi"
+      },
+      "AutoMapUpdate": {
+        "description": "Mengizinkan pengguna memperbarui peta (versi mapstore lama)",
+        "title": "Pembaruan Peta Otomatis"
+      },
+      "BackgroundSelector": {
+        "description": "Memungkinkan untuk memilih latar belakang peta",
+        "title": "Pemilih Latar Belakang"
+      },
+      "BurgerMenu": {
+        "description": "Menu di kanan atas peta yang berisi plug-in lainnya",
+        "title": "Menu burger"
+      },
+      "CRSSelector": {
+        "description": "Memungkinkan untuk mengganti proyeksi peta",
+        "title": "Pemilih CRS"
+      },
+      "Details": {
+        "description": "Izinkan untuk menunjukkan kartu detail untuk peta, jika ada",
+        "title": "Detail Peta"
+      },
+      "Expander": {
+        "description": "Utilitas untuk Sidebar (navigasi) yang memungkinkan untuk menyembunyikan beberapa tombol",
+        "title": "Ekspander"
+      },
+      "FeatureEditor": {
+        "description": "Telusuri atribut dalam tabel",
+        "title": "Tabel Atribut"
+      },
+      "FilterLayer": {
+        "description": "Memungkinkan untuk menambahkan filter ke lapisan",
+        "title": "Lapisan Filter"
+      },
+      "HelpLink": {
+        "description": "Tombol untuk mengakses dokumentasi MapStore",
+        "title": "Tautan Dokumentasi"
+      },
+      "Home": {
+        "description": "Tautan ke halaman beranda",
+        "title": "Rumah"
+      },
+      "Identify": {
+        "description": "Kueri objek di peta",
+        "title": "Mengenali"
+      },
+      "Locate": {
+        "description": "Temukan dan ikuti posisi pengguna di peta",
+        "title": "Alat lokasi"
+      },
+      "Login": {
+        "description": "Alat masuk",
+        "title": "Masuk"
+      },
+      "MapCatalog": {
+        "description": "Mengizinkan menjelajah, mengedit, menghapus, dan memuat peta yang tersedia di server",
+        "title": "Katalog Peta"
+      },
+      "MapExport": {
+        "description": "Memungkinkan untuk mengekspor peta dalam file",
+        "title": "Ekspor Peta"
+      },
+      "MapImport": {
+        "description": "Memungkinkan untuk mengimpor data (SHP, KML/KMZ, GeoJSON, GPX) atau memuat ulang peta yang diekspor.",
+        "title": "Impor"
+      },
+      "MapLoading": {
+        "description": "Spinner di sidebar yang menunjukkan jika peta sedang dimuat",
+        "title": "Indikator Pemuatan Peta"
+      },
+      "Measure": {
+        "description": "Memungkinkan untuk mengukur jarak dan area di peta",
+        "title": "Ukuran"
+      },
+      "MetadataExplorer": {
+        "description": "Telusuri layanan (WMS/WMTS/CSW) untuk menambahkan lapisan ke peta",
+        "title": "Katalog"
+      },
+      "MousePosition": {
+        "description": "Menampilkan koordinat titik yang ditunjuk oleh kursor mouse",
+        "title": "Posisi Tikus"
+      },
+      "Print": {
+        "description": "Memungkinkan untuk mencetak peta saat ini dengan legenda",
+        "title": "Alat Cetak"
+      },
+      "Save": {
+        "description": "Memungkinkan untuk menyimpan perubahan pada peta di server",
+        "title": "Menyimpan"
+      },
+      "SaveAs": {
+        "description": "Memungkinkan untuk membuat atau mengkloning peta di server",
+        "title": "Simpan Sebagai"
+      },
+      "ScaleBox": {
+        "description": "Indikator dan pemilih skala peta saat ini",
+        "title": "Pemilih Skala"
+      },
+      "Search": {
+        "description": "Alat pencarian tekstual (GeoCoder)",
+        "title": "Bilah Pencarian"
+      },
+      "Settings": {
+        "description": "Memungkinkan untuk mengedit beberapa pengaturan untuk peta (bahasa, format info default...)",
+        "title": "Pengaturan"
+      },
+      "Share": {
+        "description": "Memungkinkan untuk berbagi peta dengan berbagai cara (link, QR-Code, embed, jejaring sosial...)",
+        "title": "Bagikan Alat"
+      },
+      "StreetView": {
+        "title": "Tampilan Jalan",
+        "description": "Alat tampilan jalan untuk menjelajahi gambar tampilan jalan Google dari peta"
+      },
+      "StyleEditor": {
+        "description": "Editor gaya lapisan",
+        "title": "Editor Gaya"
+      },
+      "TOC": {
+        "description": "Memberikan daftar lapisan dengan kemampuan untuk mengurutkannya",
+        "title": "Daftar lapisan"
+      },
+      "TOCItemsSettings": {
+        "description": "Izinkan untuk mengedit pengaturan lapisan",
+        "title": "Pengaturan Lapisan"
+      },
+      "Timeline": {
+        "description": "Memungkinkan perjalanan waktu untuk data dengan dimensi waktu",
+        "title": "Linimasa"
+      },
+      "Tutorial": {
+        "description": "Menambahkan tutorial untuk menjelaskan berbagai fungsi",
+        "title": "Tutorial"
+      },
+      "UserExtensions": {
+        "description": "Memungkinkan pengguna untuk mengaktifkan/menonaktifkan ekstensi pengguna",
+        "title": "Ekstensi Pengguna"
+      },
+      "UserSession": {
+        "title": "Sesi Pengguna",
+        "description": "Mengaktifkan sesi pengguna yang disimpan secara otomatis untuk setiap konteks"
+      },
+      "Version": {
+        "description": "Menampilkan versi MapStore di alat pengaturan peta",
+        "descriptionGeorchestra": "Menampilkan versi GeOrchestra di alat pengaturan peta",
+        "title": "Versi: kapan"
+      },
+      "LayerDownload": {
+        "description": "Memungkinkan untuk mengunduh data dari Tabel Atribut",
+        "title": "Unduh Data"
+      },
+      "Widgets": {
+        "description": "Memungkinkan untuk menambah dan menampilkan widget di peta",
+        "title": "Widget"
+      },
+      "WidgetsTray": {
+        "description": "Baki untuk menciutkan dan memperluas widget di peta. ",
+        "title": "Baki Widget"
+      },
+      "Globe": {
+        "description": "Tombol sidebar untuk mengaktifkan/menonaktifkan mode 3D",
+        "title": "3D"
+      },
+      "ZoomAll": {
+        "description": "Tombol sidebar untuk memperbesar peta sejauh mana peta",
+        "title": "Perbesar Hingga Maksimal"
+      },
+      "ZoomIn": {
+        "description": "Tombol yang meningkatkan tingkat pembesaran peta",
+        "title": "Perbesar"
+      },
+      "ZoomOut": {
+        "description": "Tombol yang menurunkan tingkat zoom peta",
+        "title": "Perkecil"
+      }
+    },
+    "contextCreator": {
+      "generalSettings": {
+        "label": "Pengaturan Umum",
+        "title": "Buat konteks aplikasi baru",
+        "edit": "Edit konteks aplikasi",
+        "name": "Nama",
+        "namePlaceholder": "Masukkan nama konteks aplikasi...",
+        "windowTitle": "Judul jendela",
+        "windowTitlePlaceholder": "Masukkan judul jendela..."
+      },
+      "configureThemes": {
+        "title": "Konfigurasikan Tema",
+        "label": "Tema",
+        "themes": "Pilih tema",
+        "noThemes": "Tidak ada tema yang ditemukan",
+        "customVariables": "Variabel Kustom",
+        "main": "Warna Teks Utama",
+        "background": "Warna Latar Belakang Utama",
+        "primaryContrast": "Warna Teks Utama",
+        "primary": "Warna Primer",
+        "successContrast": "Warna Teks Sekunder",
+        "success": "Warna Sekunder",
+        "guidelines": "Pastikan untuk tidak menggunakan warna sekunder yang terlalu mirip dengan warna primer dan jelas warna teks primer dengan pasangannya (hal yang sama berlaku untuk pasangan warna lainnya: utama, sekunder)",
+        "alternativeTextPrimarySecondary": "<p>Peringatan: warna sekunder tidak dapat dibaca dibandingkan dengan warna utama</p><p>Warna alternatif adalah {color}<span class=\"ms-custom-theme-picker-alternative-text\" style=\"background-color:{color}\"></span></p>",
+        "tooltips": {
+          "main": "Warna teks yang digunakan dalam panel atau dialog",
+          "background": "Warna latar belakang yang digunakan dalam panel atau dialog",
+          "primaryContrast": "Warna teks berlawanan dengan warna latar belakang utama dan sukses: ikon di dalam bilah alat, tajuk, tombol",
+          "primary": "Warna utama latar belakang: bilah alat, tajuk, tombol",
+          "successContrast": "Warna teks diterapkan saat warna sekunder digunakan sebagai latar belakang",
+          "success": "Warna latar belakang digunakan untuk menunjukkan saat tombol 'aktif' atau 'dipilih'",
+          "customColorsDescription": "Anda dapat mengubah salah satu dari warna ini sebagai tambahan (atau tidak) ke tema yang telah dikonfigurasi sebelumnya yang dipilih di atas"
+        }
+      },
+      "configurePlugins": {
+        "label": "Konfigurasikan Plugin",
+        "pluginsFilterPlaceholder": "Filter plugin berdasarkan nama...",
+        "availablePlugins": "Plugin yang Tersedia",
+        "enabledPlugins": "Plugin yang Diaktifkan",
+        "availablePluginsEmpty": "Semua plugin yang tersedia diaktifkan",
+        "enabledPluginsEmpty": "Tambahkan plugin ke konfigurasi dari daftar plugin yang tersedia",
+        "searchResultsEmpty": "Tidak ditemukan plugin yang memenuhi kriteria pencarian",
+        "cfgParsingError": {
+          "title": "Kesalahan Konfigurasi",
+          "body": "Penguraian konfigurasi JSON gagal.\n"
+        },
+        "uploadLabel": "Seret bundel ekstensi atau klik untuk menjelajahi dan mengunggahnya",
+        "uploadTitle": "Instal plugin MapStore",
+        "uploadParseError": "file index.json index.json memiliki format yang salah",
+        "uploadMissingIndexError": "file index.json hilang dalam zip",
+        "uploadMissingPluginError": "Tidak ada plugin yang ditentukan di index.json",
+        "uploadMissingBundleError": "Tidak ada bundel javascript dalam file yang diunggah",
+        "uploadTooManyBundlesError": "Terlalu banyak bundel javascript dalam paket zip",
+        "uploadWrongFileFormatError": "Format file salah, diharapkan file zip",
+        "uploadAlreadyInstalledError": "Ekstensi sudah terpasang. ",
+        "confirmRemovePlugin": "Yakin ingin menghapus ekstensi?",
+        "cancelUpload": "Menutup",
+        "install": "Install",
+        "uploadError": "Kesalahan saat menginstal: ",
+        "uploadOk": "Ekstensi telah diinstal dengan benar",
+        "tooltips": {
+          "enableUserPlugin": "Aktifkan pemilihan plugin saat ini untuk pengguna",
+          "disableUserPlugin": "Nonaktifkan pemilihan plugin saat ini untuk pengguna",
+          "activatePlugin": "Aktifkan pemuatan plugin ini saat startup",
+          "deactivatePlugin": "Nonaktifkan memuat plugin ini saat startup",
+          "editConfiguration": "Edit konfigurasi plugin",
+          "pluginDocumentation": "Buka dokumentasi konfigurasi plugin",
+          "uploadPlugin": "Tambahkan ekstensi ke MapStore",
+          "removePlugin": "Hapus ekstensi ini dari MapStore",
+          "mapTemplatesConfig": "Konfigurasikan template peta"
+        },
+        "tutorialPlugins": {
+          "availableTitle": "Pengaya yang Tersedia",
+          "availableDescription": "Plugin ini dinonaktifkan",
+          "enabledTitle": "Plugin yang Diaktifkan",
+          "enabledDescription": "Plugin ini diaktifkan"
+        },
+        "saveCfgErrorNotification": {
+          "title": "Kesalahan sintaks dalam konfigurasi plugin",
+          "message": "Plugin \"{pluginName}\" berisi kesalahan dalam konfigurasi. "
+        }
+      },
+      "configureTemplates": {
+        "title": "Konfigurasikan template peta",
+        "availableTemplates": "Templat peta yang tersedia",
+        "enabledTemplates": "Templat peta yang diaktifkan",
+        "templatesFilterPlaceholder": "Filter template peta menurut nama...",
+        "availableTemplatesEmpty": "Semua templat peta yang tersedia diaktifkan",
+        "enabledTemplatesEmpty": "Tambahkan templat peta ke konfigurasi dari daftar templat yang tersedia",
+        "searchResultsEmpty": "Tidak ditemukan templat peta yang memenuhi kriteria pencarian",
+        "fileDrop": {
+          "label": "Templat peta",
+          "clear": "Jatuhkan atau klik untuk memilih file peta (peta JSON MapStore yang diekspor atau file WMC didukung)"
+        },
+        "uploadDialog": {
+          "title": "Unggah templat peta",
+          "save": "Mengunggah",
+          "jsonParsingError": "Penguraian JSON gagal: \"{error}\"",
+          "fileReadError": "Terjadi kesalahan pembacaan file yang tidak terduga"
+        },
+        "tooltips": {
+          "uploadTool": "Unggah template peta baru",
+          "editTemplate": "Edit properti template peta",
+          "deleteTemplate": "Hapus templat peta"
+        },
+        "deleteError": "Tidak dapat menghapus template peta, terjadi kesalahan",
+        "deleteConfirm": "Anda yakin ingin menghapus templat peta \"{templateName}\" ini?"
+      },
+      "configureMap": {
+        "label": "Konfigurasi Peta",
+        "reload": "Muat Ulang Peta",
+        "confirm": "Ini akan membuang semua perubahan peta saat ini. "
+      },
+      "saveErrorNotification": {
+        "titleContext": "Penyimpanan konteks gagal",
+        "titleTemplate": "Penyimpanan template gagal",
+        "conflict": "Sumber daya dengan nama ini sudah ada",
+        "defaultMessage": "Kesalahan yang tidak diketahui",
+        "categoryError": "Gagal membuat kategori \"{categoryName}\" yang hilang"
+      },
+      "loadTemplateErrorNotification": {
+        "forbidden": "Tidak dapat mengakses data template, pengguna tidak memiliki izin yang diperlukan!",
+        "defaultMessage": "Terjadi kesalahan tak terduga"
+      },
+      "contextNameErrorNotification": {
+        "title": "Nama konteks yang buruk",
+        "unknownError": "Terjadi kesalahan tak terduga"
+      },
+      "undo": "Anda yakin ingin mengabaikan sesi pengeditan konteks?",
+      "showTutorial": "Tampilkan Tutorial"
+    },
+    "contextManager": {
+      "title": "Kelola Konteks",
+      "gridTitle": "Konteks",
+      "searchPlaceholder": "Cari...",
+      "newContext": "Konteks Baru",
+      "editContextTooltip": "Mengedit konteks"
+    },
+    "userExtensions": {
+      "title": "Ekstensi Pengguna",
+      "emptyTitle": "Tidak ada hasil",
+      "emptyDescription": "Filter yang dimasukkan tidak cocok dengan nama atau deskripsi ekstensi apa pun",
+      "filterPlaceholder": "Saring...",
+      "addExtension": "Tambahkan Ekstensi",
+      "removeExtension": "Hapus Ekstensi"
+    },
+    "mapTemplates": {
+      "title": "Templat peta",
+      "tooltip": "Telusuri templat peta",
+      "favouritesTitle": "Favorit",
+      "allTitle": "Semua",
+      "filterPlaceholder": "Filter template peta...",
+      "transfer": "Ganti peta dengan templat peta ini",
+      "merge": "Tambahkan templat peta ini ke peta",
+      "favouriteAdd": "Tambahkan ke favorit",
+      "favouriteRemove": "Hapus dari favorit",
+      "emptyTitle": "Tidak ada hasil",
+      "emptyDescription": "Filter yang dimasukkan tidak cocok dengan nama atau deskripsi template peta mana pun",
+      "noTemplatesTitle": "Templat peta tidak ditemukan",
+      "noTemplatesDescription": "Konteks saat ini tidak berisi templat peta",
+      "confirmReplaceTitle": "Ganti konten peta",
+      "confirmReplaceMessage": "Anda akan mengganti semua lapisan dan konfigurasi peta dengan template peta yang dipilih dengan mengklik tombol 'Ganti'",
+      "confirmReplaceConfirmButton": "Mengganti"
+    },
+    "mapCatalog": {
+      "title": "Katalog Peta",
+      "tooltip": "Jelajahi dan muat peta",
+      "filterPlaceholder": "Telusuri peta...",
+      "deleteConfirmContent": "Anda yakin ingin menghapus peta \"{mapName}\"?",
+      "tooltips": {
+        "edit": "Mengedit properti",
+        "delete": "Hapus sumber daya",
+        "share": "Membagikan"
+      },
+      "deletedMap": {
+        "title": "Peta Dihapus",
+        "message": "Peta berhasil dihapus"
+      },
+      "updatedMap": {
+        "title": "Peta Tersimpan",
+        "message": "Peta berhasil disimpan"
+      },
+      "deleteError": "Terjadi kesalahan tak terduga saat menghapus peta",
+      "updateError": "Terjadi kesalahan tak terduga saat menyimpan peta"
+    },
+    "layerInfo": {
+      "title": "Perbarui judul dan deskripsi lapisan",
+      "noLayers": "Tidak ada lapisan yang ditemukan",
+      "syncButton": "Sinkronkan judul dan deskripsi",
+      "selectAll": "Pilih Semua",
+      "deselectAll": "Batalkan pilihan semua",
+      "updatingLayers": "Memperbarui lapisan {updatedCount}/{totalCount}",
+      "tooltips": {
+        "syncSuccess": "Judul dan deskripsi berhasil diperbarui untuk lapisan ini",
+        "syncError": "Judul dan deskripsi lapisan ini tidak dapat diperbarui. "
+      },
+      "syncingLayersSavingToServerError": {
+        "title": "Kesalahan Penyimpanan Server",
+        "message": "Terjadi kesalahan tak terduga saat menyimpan lapisan yang diperbarui ke server"
+      },
+      "syncingLayersGeneralError": {
+        "title": "Kesalahan Umum",
+        "message": "Terjadi kesalahan tak terduga selama sinkronisasi lapisan. "
+      },
+      "layerType": "ketik: {jenis}"
+    },
+    "tutorial": {
+      "title": "Tutorial",
+      "back": "Kembali",
+      "next": "Lanjut",
+      "close": "Menutup",
+      "skip": "Melewati",
+      "last": "Menyelesaikan",
+      "start": "Awal",
+      "checkbox": "jangan tampilkan pesan ini lagi",
+      "error": "Kesalahan: target tidak ditemukan",
+      "intro": {
+        "title": "Selamat datang di MapStore",
+        "text": "framework untuk membangun aplikasi pemetaan web menggunakan pustaka pemetaan standar, seperti OpenLayers dan Leaflet."
+      },
+      "drawerMenu": {
+        "title": "Menu utama",
+        "text": "Anda dapat menemukan informasi dan alat untuk mengelola lapisan"
+      },
+      "searchBar": {
+        "title": "Bilah Pencarian",
+        "text": "Tulis alamat tempat untuk ditemukan. "
+      },
+      "home": {
+        "title": "Rumah",
+        "text": "Klik untuk membuka beranda"
+      },
+      "searchButton": {
+        "title": "Mencari",
+        "text": "Klik untuk membuka bilah pencarian, lalu tulis alamat tempat yang ingin ditemukan. "
+      },
+      "burgerMenu": {
+        "title": "Menu Opsi",
+        "text": "Anda dapat menemukan opsi, pengaturan, dan bantuan"
+      },
+      "zoomInButton": {
+        "title": "Perbesar",
+        "text": "Klik untuk memperbesar peta"
+      },
+      "zoomOutButton": {
+        "title": "Perkecil",
+        "text": "Klik untuk memperkecil peta"
+      },
+      "fullscreen": {
+        "title": "Layar penuh",
+        "text": "Klik untuk membuka layar penuh"
+      },
+      "identifyButton": {
+        "title": "Info",
+        "text": "Tekan tombol untuk mengaktifkan alat, lalu klik peta untuk mengambil informasi dari lapisan"
+      },
+      "mapType": {
+        "title": "Perpustakaan",
+        "text": "Anda dapat memilih Leaflet atau OpenLayers untuk merender peta Anda"
+      },
+      "mapsGrid": {
+        "title": "Peta",
+        "text": "Berikut beberapa contoh MapStore. "
+      },
+      "examples": {
+        "title": "Aplikasi Kustom",
+        "text": "Anda dapat menggunakan komponen dan plugin MapStore untuk membuat aplikasi khusus"
+      },
+      "introCesium": {
+        "title": "instruksi peta 3D",
+        "text": "Klik tombol selanjutnya untuk memulai tutorial"
+      },
+      "cesium": {
+        "title": "Interaksi dengan Peta",
+        "pan": "Tampilan geser",
+        "zoom": "Tampilan zoom",
+        "tilt": "Tampilan miring",
+        "rotate": "Putar tampilan",
+        "oneDrag": "Seret satu jari",
+        "twoPinch": "Cubit dua jari",
+        "twoDragSame": "Seret dua jari, arah yang sama",
+        "twoDragOpposite": "Seret dua jari, berlawanan arah",
+        "leftClick": "Klik kiri seret",
+        "rightClick": "Klik kanan seret, atau Gulir roda mouse",
+        "middleClick": "Seret klik tengah, atau Seret klik kiri/kanan CTRL"
+      },
+      "cesiumCompass": {
+        "title": "Kompas",
+        "text": "Anda dapat menggunakan kompas untuk mengorbit di seluruh dunia. "
+      },
+      "cesiumNavigation": {
+        "title": "Navigasi",
+        "text": "Di sini Anda dapat menemukan tombol zoom in dan zoom out"
+      },
+      "dashboardIntro": {
+        "title": "Tutorial Dasbor",
+        "text": "Ikhtisar fungsi dasbor"
+      },
+      "dashboardNav": {
+        "title": "Bilah Navigasi",
+        "text": "Di sini Anda dapat menemukan pemilih bahasa, login, tautan beranda, dan menu opsi"
+      },
+      "dashboardContainer": {
+        "title": "Dasbor",
+        "text": "<p>Dasbor di MapStore menyediakan kumpulan informasi yang dikumpulkan dengan tepat untuk menampilkan data gabungan dalam satu tampilan. </p><p> Semua pengguna dapat memvisualisasikan dan berinteraksi dengan dasbor yang diterbitkan tetapi hanya pengguna yang diizinkan untuk mengedit yang dapat menambah, mengatur, mengubah ukuran, atau menghapus semua widget di dalam dasbor</p>"
+      },
+      "dashboardAddWidget": {
+        "title": "Tambahkan Widget",
+        "text": "Untuk menambahkan widget ke dasbor, Anda dapat mengklik tombol"
+      },
+      "dashboardBuilder": {
+        "title": "Buat gawit baru",
+        "text": "Anda dapat memilih jenis widget yang Anda inginkan dan kemudian menambahkannya ke dasbor dengan memilih salah satu item dalam daftar"
+      },
+      "dashboardAddChart": {
+        "title": "Widget Bagan",
+        "text": "<p>Ini adalah widget yang menampilkan dan mengumpulkan data ke dalam bagan pai, garis, atau batang.</p><p>Langkah:</p><p><ul><li>Pilih lapisan vektor</li><li>Pilih jenis bagan</li><li>Konfigurasikan data bagan</li><li>Simpan dan tambahkan ke dasbor</li></ul></p>"
+      },
+      "dashboardAddText": {
+        "title": "Widget Teks",
+        "text": "<p>Tambahkan teks Anda sendiri ke dasbor.</p><p>Langkah:</p><p><ul><li>Edit teks di editor</li><li>Simpan dan tambahkan ke dasbor</li></ul></p>"
+      },
+      "dashboardAddTable": {
+        "title": "Widget Tabel",
+        "text": "<p>Tambahkan tabel atribut ke dasbor yang berisi data dari lapisan vektor yang dipilih. </p><p>Langkah:</p><p><ul><li>Pilih lapisan vektor</li><li>Konfigurasi data tabel</li><li>Simpan dan tambahkan ke dasbor</li></ul></p>"
+      },
+      "dashboardAddCounter": {
+        "title": "Widget Penghitung",
+        "text": "<p>Tambahkan penghitung baru ke dasbor. </p><p>Langkah:</p><p><ul><li>Pilih lapisan vektor</li><li>Konfigurasi data penghitung</li><li>Simpan dan tambahkan ke dasbor</li></ul></p>"
+      },
+      "dashboardAddMap": {
+        "title": "Widget Peta",
+        "text": "<p>Tambahkan peta interaktif baru ke dasbor. </p><p>Langkah:</p><p><ul><li>Pilih peta</li><li>Tingkatkan peta dengan menambahkan lapisan baru</li><li>Simpan dan tambahkan ke dasbor</li></ul></p>"
+      },
+      "contextCreator": {
+        "generalSettings": {
+          "intro": {
+            "title": "Tutorial Pembuatan Konteks",
+            "text": "Ini adalah panduan langkah demi langkah untuk membuat dan mengedit konteks MapStore"
+          },
+          "stepsOverview": {
+            "title": "Langkah-langkah Pencipta Konteks",
+            "text": "<p>Setiap konteks dibuat dalam tiga langkah:</p><p><ul><li>Pengaturan Umum</li><li>Konfigurasi Peta</li><li>Konfigurasikan Plugin</li></ul></p>"
+          },
+          "navigation": {
+            "next": {
+              "title": "Navigasi: Selanjutnya",
+              "text": "<p>Tekan tombol ini untuk pergi ke langkah berikutnya. </p>"
+            },
+            "back": {
+              "title": "Navigasi: Kembali",
+              "text": "<p>Tekan tombol ini untuk pergi ke langkah sebelumnya.</p>"
+            },
+            "close": {
+              "title": "Navigasi: Tutup",
+              "text": "<p>Tekan tombol ini untuk meninggalkan proses pembuatan konteks tanpa menyimpan. </p>"
+            }
+          },
+          "fields": {
+            "title": "Pengaturan Umum",
+            "text": "<p>Langkah pembuatan pertama harus menentukan nama konteks, yang juga menentukan URL uniknya, dan judul yang akan digunakan sebagai judul jendela browser saat konteks dibuka dan aktif. </p>"
+          },
+          "showTutorial": {
+            "title": "Tampilkan Tutorial",
+            "text": "<p>Jika Anda ingin melalui tutorial satu langkah lagi, Anda dapat melakukannya kapan saja dengan menekan tombol ini.</p>"
+          }
+        },
+        "configureMap": {
+          "intro": {
+            "title": "Konfigurasi Peta",
+            "text": "<p>Pada langkah ini, dengan menggunakan alat penampil peta MapStore, Anda dapat mengonfigurasi peta default yang akan dibuka saat mengakses konteks.</p>"
+          },
+          "reloadMap": {
+            "title": "Muat Ulang Tombol Peta",
+            "text": "<p>Jika Anda ingin membuang semua perubahan yang telah Anda buat pada peta sejauh ini dan memulai kembali, Anda dapat melakukannya dengan menekan tombol ini.</p>"
+          }
+        },
+        "configurePlugins": {
+          "intro": {
+            "title": "Konfigurasikan Plugin",
+            "text": "<p>Langkah ini memungkinkan Anda untuk mengonfigurasi plugin yang akan hadir dalam konteks.</p>"
+          },
+          "availablePlugins": {
+            "title": "Plugin yang Tersedia",
+            "text": "<p>Daftar ini berisi plugin MapStore yang dapat ditambahkan ke konteks. </p>"
+          },
+          "pluginManipulation": {
+            "title": "Memindahkan Plugin",
+            "text": "<p>Setelah dipilih, plugin yang tersedia dapat dipindahkan ke kolom kanan, menjadikannya aktif dalam konteks. </p><p>Plugin juga dapat dipindahkan dari kolom \"diaktifkan\" ke kolom \"tersedia\" untuk menghapus plugin dari konteks. </p>"
+          },
+          "enabledPlugins": {
+            "title": "Plugin yang Diaktifkan",
+            "text": "<p>Daftar ini berisi plugin MapStore yang ada di dalam konteks. </p>"
+          },
+          "userPlugin": {
+            "title": "Alat Plugin: Plugin Pengguna",
+            "text": "<p>Dengan menekan tombol ini, Anda dapat mengizinkan plugin untuk diaktifkan/dinonaktifkan oleh pengguna, menjadikannya plugin pengguna. </p>"
+          },
+          "userPluginCheckbox": {
+            "title": "Alat Plugin: Plugin Pengguna",
+            "text": "<p>Jika plugin adalah plugin pengguna, maka kotak centang ini mengontrol apakah plugin pengguna harus diaktifkan secara otomatis saat memuat konteks.</p>"
+          },
+          "cfgTool": {
+            "title": "Alat Plugin: Alat Konfigurasi",
+            "text": "<p>Menekan tombol ini akan membuat editor muncul, di mana Anda dapat mengedit konfigurasi default plugin.</p>"
+          },
+          "cfgEditor": {
+            "title": "Alat Plugin: Editor Konfigurasi",
+            "text": "<p>Editor mendukung penyorotan sintaks. </p>"
+          },
+          "documentationTool": {
+            "title": "Alat Plugin: Dokumentasi",
+            "text": "<p>Menekan tombol ini akan membawa Anda ke halaman dokumentasi plugin tempat Anda dapat mencari info tentang apa yang dilakukan plugin dan parameter konfigurasi apa yang didukungnya.</p>"
+          },
+          "mapTemplatesTool": {
+            "title": "Alat Plugin: Templat Peta",
+            "text": "<p>Plugin 'Map templates' juga memiliki alat khusus yang memungkinkan Anda mengonfigurasi template peta yang akan dapat diakses dalam konteks.</p>"
+          },
+          "extensions": {
+            "title": "Ekstensi",
+            "text": "<p>MapStore juga mendukung pengunggahan bundel ekstensi khusus. </p>"
+          },
+          "extensionsDelete": {
+            "title": "Ekstensi",
+            "text": "<p>Ekstensi yang sudah diunggah dapat dihapus kapan saja dengan menekan tombol ini.</p>"
+          }
+        }
+      },
+      "geostoryIntro": {
+        "title": "Tutorial Cerita",
+        "text": "<p>Tinjauan fungsi cerita</p><p> Jelajahi panduan pengguna terkait <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/exploring-stories/'>di sini</a>"
+      },
+      "geostoryViewHeader": {
+        "title": "Tajuk",
+        "text": "Di sini Anda dapat menemukan pemilih bahasa, login, tautan beranda, dan menu opsi"
+      },
+      "geostoryViewNavItems": {
+        "title": "Item yang dapat dinavigasi",
+        "text": "Di sini Anda dapat menemukan item yang ada dalam cerita yang dapat Anda gunakan untuk menavigasi/melompat ke. "
+      },
+      "geostoryViewNavTitle": {
+        "title": "Judul Cerita",
+        "text": "Di sini Anda dapat melihat judul cerita"
+      },
+      "geostoryViewNavLogo": {
+        "title": "Logo Cerita",
+        "text": "Di sini Anda dapat melihat logo cerita"
+      },
+      "geostoryViewContent": {
+        "title": "Konten Cerita",
+        "text": "Ini akan menjadi isi cerita"
+      },
+      "geostoryViewEditButton": {
+        "title": "Edit Cerita",
+        "text": "Dengan mengklik di sini, Anda dapat mengedit konten dan pengaturan cerita"
+      },
+      "geostoryEditSidebar": {
+        "title": "Bilah samping",
+        "text": "<p>Di Sidebar Anda dapat melihat ikhtisar cerita di mana setiap item diidentifikasi oleh ikon yang berbeda atau dengan pratinjau jika ada gambar atau peta</p><p>Di sini Anda dapat:</p><ul><li>Ubah judul ke setiap bagian atau judul konten</li><li>Susun ulang dengan bagian drag drop dan kontennya</li><li>Perbesar ke konten tertentu dengan tombol jam pasir</li></ul>"
+      },
+      "geostoryEditSidebarToolbar": {
+        "title": "Peralatan",
+        "text": "<p>Dari kiri ke kanan:</p><ul><li>Hapus bagian yang dipilih</li><li>Masuk ke mode tampilan</li><li>Mengedit pengaturan</li><li>Ciutkan/luaskan semua</li></ul>"
+      },
+      "geostoryEditSidebarSettings": {
+        "title": "Pengaturan Cerita",
+        "text": "<p>Di sini Anda dapat:</p><ul><li>Tampilkan/sembunyikan/edit judul cerita</li><li>Edit tema cerita</li><li>Tampilkan/sembunyikan/edit logo cerita</li><li>Kustomisasi bilah navigasi dalam mode tampilan</li></ul><p> Untuk info lebih lanjut, lihat panduan pengguna terkait <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/story-setting/'>di sini</a>"
+      },
+      "geostoryEditContainer": {
+        "title": "Konten Cerita",
+        "text": "<p>Di sini Anda dapat melihat konten cerita, mengeditnya dengan menambahkan atau menghapus bagian, paragraf, dll.</p><p>Setiap bilah alat memungkinkan Anda memanipulasi konten cerita, misalnya:</p><img src='data:image/png;base64,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'/><ul><li>mengubah sumber media</li><li>buat bagian untuk menyesuaikan dengan ketinggian konten atau menyesuaikan tampilan secara vertikal</li><li>buatlah latar belakang untuk menutupi atau tidak ruang penampung</li><li>mengubah ukuran</li><li>sejajarkan wadah (tersedia jika ukurannya tidak penuh)</li><li>ganti tema</li></ul><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAgCAYAAAB3j6rJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAAIwSURBVFhHY/wPBAyDADBB6QEHow5BB1R3yIWX7xiOP30N5REPqJJY/wKN2HLnCYMwBztD+YGzYLF+F1OGV19/MHgqSzMwMzKCxfABqjjk4ccvDJ6r9jLc+/AZKgIBSgK8DNvDnBnk+XmgIrgBVaKGg4WZgYuVmYGfnZWh39mUYbanJYMQJzsDEzAgWJiIs4KgKlCwf/z5G8rDBM++fGOwWbKD4crrDwzOCpIMGYbqDLE6ygzO8hIMd95/ZnBYthOshhAg6JCXX78zmCzYwiA/bS1D3OYjDPsfvmD49vsPw4ZbjxjqDl1gYGdmZljgbc0gxs3BcPr5W4bzr94xXHvzgeHci3dgMZCcODcn1DTcgOioATlo1Y0HDPMu3Wa4ArQofcdxhp5TVxmmnrvBoC7ExyABtOzxp68MVou2MRjN38JwF5heQGIgOWISK0Vp5B8w2q69+cjAycrC4KMsw9BsZ8ggw8sFxiC2jYwYAwszldIIIbD59mOGiWeuM1Rb6zGUmmsDsQ5Dg40BmN0HTLgC7GxQlfgBxQ4BJeb5l+4w3H73CewgN0UpBmtgSIDYn37hTuTogGKHIANQAtacvQGMQWxSAFUdQgkYdQg6GDoOYQOWnLJ83DgLJS5gGWIkLgSsZ9iAtDDR2RUdEF37/vr7j+HG24/gElNfTJDhyONX4LpFioeLAd2NL4ClMKjuAWVjTmCFSAwYbTyjg1GHoINRh6CDUYegg1GHoINB4hAGBgDB977viofL1wAAAABJRU5ErkJggg=='/><p>ikon ini akan memungkinkan Anda untuk mengedit peta terkait</p><img src=''/><b>Tip: </b>Setiap alat memiliki tooltip, arahkan mouse ke atasnya untuk melihat lebih banyak"
+      },
+      "geostoryEditAddbar": {
+        "title": "Tambahkan Konten Baru",
+        "text": "<p>Di sini Anda dapat menambahkan berbagai jenis scetions:</p><p><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAU4AAACDCAYAAADiUvK3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAABT5SURBVHhe7Z0NcBzleccf2/iwOWwjMJYBiwGZAbmAMMTDVJMhhpm4TbBJgXFNXDRD4mJE8Zg6devg4oqicWLixIWJhiSyigiJQgN0igp2KXVmQEBHM4zMhwyxTGIRIwORMBaWOcBnRLv/1b7i1cue7vZ2b3fv7v+befTuvs9+vM/t3l/v1+5N+j8L0Th+/LidTp061U5NovYPDw/b6cyZM+3UJO7l9+tn/IwfMP5o459s/yWEEJIzFE5CCPEIhZMQQjwy6ciRI0XVx3n06FE7nTFjhp2axL38fv2Mn/EDxh9t/KxxEkKIRziqbhB3P+Nn/IDxc1SdEEKKikiEE5VcGo1Gy8fiQEGF0y1oGCGE5IubpsDCJFDhjDIQQkh5E6b+BCKcmQqqB0Gj0WiFNJNM+UEwKZ1Ojzuy11Ens2DW8ew0k9/vqBZHFRk/YPyMX2fSpEl2qvZPJBJ2qjD9fsvnSzhNUcQ6/EjV/tmE1STb+XnjMH7A+Ms7/lmzZtmpQhdGLGN/lafAelDly3se5wknnGCnQB0CKfxIsb+er9D9bmQ7P28cxg8Yf/nGDwHU41cCqYQRKfbX8xWffvqpnfotX17CqQuf2h0pDP6XXnpJpkyZMuZTYF0VXBdenWz+VCplp8lk0k5N/B4/7n7Gz/gB40+OE0SA9ZGREbnsssvGhNMUT+gTlkMXTr2prXZFqgx+COcVV1xh+wghJCyef/55WzjRx6mEUxdPpW9mH6giV+H0Paqui6YyQgiJijA0yZNw6gUwC6bss88+s6vLhBASNtAeaJCbNsEU+nI+5FXjNE+qCoUCq0ITQkjYmDpkalFQ2jQZbfZ8DH2Zph07dsxO4SeEkLBR2qS0yDRdw/xYYH2cusJjmRBCwsbUIbUcNJMxepSLYXqAnqplPR9TkCZPnmwbIYSEjdIfaJGuTWpZretpPpZ3H6eu4modBpVnjZMQEgVKf3RNUpjrfvBVNdQLZxohhISNmxYpC5JA2tSFLiQhhORCWFoUyOCQotCFJYSQiXDToELoUd7CaRZGrReikIQQkiuZtChIbcppHmem+U8qX0/xkL56UJ8QQsJE6Y+bNiE1LVN+Ngukj1MHqs5aJyEkCsLSn5znceZqas4UIYSEjdIfN20K0gKrcbKWSQiJE4XUpMCb6oQQUupQOAkhxCMUTkII8UhBhJP9nYSQKAhLe3L6eWC9MJj3hHW8fUQ9UI+3LmPuFNJPPvlEXn75ZbnuuuucPcJgSPpe3C+HnTV3ElJVWyuV06zFoT7p/t3EW7tzqsy/vFoqnDWSjVyui8bs+bKoOv6fbvrdHunpH/3traBIVNVK7Rnuv4NTSEopFvD444/LpZdeKtOmTRt7Q5L+1jZoFH57SP/NIfWbRMBN/3SUv0SEs0davrFJdlVUSgWEceRDGRpMiYxbr5Jv/+tWWTrHWn+lRb7RuBM7emSpbH6iQWqdNZKN0euS8yf99c3yxN/E/9Md2LFNHp26WOqC0vihLuk8vkLWL6t0MsJjYEezdNasGv1eBMHgTmnrXSxrI4gFhCaclggGKpwff/yxLZzXXHONs0cYjH5BpekJaVhorVoXb8PNLTJfrQ93SlP9TvlSsQrnYLe0b2+Xzn6RqsuXSv1fLpHqcT+r3SvtDduk01nLjcWyvqVeapy1wlCqwtki3Zc3BCo2LS8ukoZIhNNbLNbX3xIdZ8WNCGMBTz75pC2c06dPp3B6xhROk5G0pFKjcXpjqiRnhtwE+cQSn5st8UlXy+LFp0rvM90yMPNa2dq6SmqmONt4FSibcP4JpIdTkvMnnUhKEi2EmGOKTepAj+wdrpAFf1IlybFr4oEiEc7+/1gjax6ulc3/PsF9UybCWZ6j6lMSlgBaX1LPFrJoguF+2T9spZdeJ7euaZTN61fI0qsXSMU4NbLiOaNSKj1Z0tqr8CRcP8cMVgSiaTLw1Aa5ae0mabpzjdz2QI8E21sYJ1LS97vDkjxvnlQ5OeVMedY4cx4c0gaUImNAdv7DamnZl5DKLzdI498vkap8ajWRUJqDQ5/X0tLS9aPlsuU5x5GwavET1cbASL/s+lGTtA3Uyfo7Vski1PRiWeO0hHJHmzyeXiJrr6+xvglWq2b5Jnl22Wa5a+Yu2ZW4TlYtq5aks/UYZVLjLE/hzLmPs0YaVL9oRKT3tMjqO3dJYl6FDB0ckPS0alnxT9+T+ou/cMvGkNLv4xx6pklW39tt1zQrLFFpvaU2c03+UJc037FNdg2qemlCar+1VTbW7ZX23TESToj71k3S3DUkiYVrpbVpiVS82yHrGtqk6rv3S+3T35HmV9JSUbdWNm8w/pGzqU7iQO8LO2Vo9rWy8Setcu/tdVL5WZ88eudt0rJHbxRicGi1rPZk7dZexC8VVzXKwy1bpfGHrfLQBKKZ2tMm627dookmSEvPz9fJTX/7oOx3ciIH4t5gCWNXSqqXNUrrXZZoWtnpvv3SJ9Uyv7pKltzVKo1WbTPV1SzfaWiWrkOju5YTJTIdySBbjdPD4NDUZFISETaNe366XDY9lZTF371P1n/ZuoUPdsiGdW3S+5VGeeL2RWorDg6FSNYBlfSAdD/WIo8erJO1dtdKv3SsXSNtBxy/CzW3tMrWqGucw52yZdU26bIEcunGu6ThS593m/T+fKVs2HHluK6Iod0tcveWnZag1sn6to2yGDM9Iq5xhjUdiYNDWSxK0QS1135bahJD0vkDq5b4404ZmFMjNZa4JKbpdRsODsWCoT7pfGCDrPyr1dL0SLf0/q+qkVXJ4r+IfxeEJCqk8hTrrkgflL2798vQiJMvA9L7Skrk4hqZ7+TIyJDs371XDloV6MQplVIRxs0UI0qvjzPVLz0vdEjz/buk8sZGqb9qkdRE2EcZCIe6pWXzPbKzz2nmzbZqi83Wf/4i6OacuMYZwfSuAPhCjXOwRzp+0SLtz/W7j6onaqTeavL2390sna4bxKTGCSxB7Lp/g2z7zYDInCWy9vtrrZpkl2xbsUV6b7xfWm+o0u5Hkcqvrpeta+qkQlUw2MdZpBzqk64DCVm0bKlUHdktna/3O44iZrZ1I257SO67xbpBsT78oaSKYmS9Rx6sXykrM9qD1hbFS+pAp7TdsVKW37xJ2jKJJkj3Svud7dIz7qGFmDKlQupuH+1PTw7ukm13tEvfgb3Sbblqz8NEpD5p39BkiWbS2u5eabW2GxPNMqI0R9X9kuqTnR17ZcE1S40ndCLA+nK2PN0tU2tWyaqvVMjAf66T1Q/0ydJx/bf90rn9vzwO9tTI1bcsLvCcvGx9rx77WWNyXQZ2NMmmjh4ZGDfQ44/Y1Dg1Ugd7ZP/IfKn87d2y+qciDW1bZels/MOw8qfMl9p5Lk2eMqlxUjgNUr/fKT/+fsvoSGGiUuq+tVFu/3p1fk+EBEHKaibdtEU6pVrq/my+HH+xU7oHa2TtQ5tlyVjffbEODuXeVI/TdRnYsUFWbw92TkIchVPRs325bHruatnavir7I7psqpcf/b/ZIrf9nfPlBOkB6dq+Tm5q2CK7Djp5YZOsk/U/aZQVVu2yb3eP9M+sk4Z/2aiJJijWwaHcShDL61JG1P71w/JvbTmIZhnBGifQOsQzN74SUn3DZvnejTVffFqCFIaYXpfSqnGW1tuRQmuqW0IYqHDGYh7nRDhz7Dqn18ut148+MpZ6pklW3ovu72yE07wtS4rouvB9nBPD93E6lIRwDvdL52PN8rOneiVl3yeJz6dSHO+SbfVbMk4V+ZwwvqD5DPTkQxiDQzlQNNeFFAN8H2dQDPbIzsfa5MGn+1ybe4nqa6WxaZVUPLVG1vwq29SlML6g+Qz05EPEYlN014UUAxxV90n63W55dHuLdOyeqH/MYVqtNPxjnXQ1tmSZV0jh9AuvSzYYix8onHkytG+XtD/YJp2/TWX/YupYH2TC2sMKbwKiEZtSoPivC4XTOxROZym+wjnwSsfoz0vg4dmCQeH0Sulcl1Lqey7dfnQKpydK6T9owDf17Dqpv742oilUpVuzIfGEwukJNqMyckGDtP5wqUQzq47CScIlNOG0hDBQ4Yzy54EpnC5QOAOC1yUjkcYyHs7j9EQpfUFLCQpnRiicBYHzOD1RZpPGiwYOqGQk0r7nUoplPOzjJIQQj4QlnHw7EiGEeITCSQghHqFwEkKIRyichBDikUlHjhzxPTgE06cjvfrqq3LDDTc4exBCSDg88sgjcskll4ybjqQGhjg4RAghEcLpSISQkoHTkQghJKZQOAkhxCMUTkII8QiFkxBCPBLLwaGTdrzuLBFCyo2Pll3oLHkntMEhLARpEFAYIYSEjdIfN20K0thUJ4QQj3AeJyGkZCjqeZx6QQghJCzC0h421QkhxCMUTkII8QiFkxBCPBKYcLJfkxASJwqpSZzHSQgpGYp2HidUnrVPQkgUhKU/kzFfKZthztNE+XqKeVMwQggJG6U/btqE1LRM+dks7xqnqepqnbVNQkiUZNKiILUppyeHgNpMPTkEVdefHFKG3xzCk0MopO7HPlhG/wOWMZsfGKe3twXKb/LRRx/Z6UknnWSnJtn2L3Z/scb/3nvvyYUXXihXXnmlk+OPZ599Vl5//XU5/fTTnZxR4hq/wq+/XO9/JXp4MhHLiB9PAmEZ26ong6AneHJI/eaQMuWH/mAf1DSBOq4ik/4plD8Q4VTiCINwIkWBVJ6+HY6v9jdObaPOD78bH374oZ2efPLJdmqiBqYy7V/s/mKO/+2335bZs2fbN7Yfuru7ZWhoSM466ywn53PiHD/w6y+X+99NuKApiB/pjBkzxsQQpgQSmoJUF059Oxwf+0cqnEgzCScKqUQTqdpWCScC0lHHz/bBUjiLO/4DBw7InDlzZOHChU6ON3bv3i3vvPOOnH/++U7OeOIev19/ud3/prClUik7TwknlpU4IoXGIHUTTmyL4yONRDgBAlOiCZ8SzmPHjo0JpxJNtQ1SJZzY3zi1TbYPlsJZ/PGj5okm9sUXX+zk5saePXvk4MGDcuaZZ/L6l2H8EDnEj1QXTiWaSnOwfOKJJ44Jp9oGpo7vVzhznseJE+qpWtbzlUgq00VTiaRadhNNMJEP0F/8fgjf4cOHbSHMFWyLfc444wzf56e/OP3Kp/xqWdcaXXt0bVLLal1P87FJVg1yXCmRCdwUF4WEHyn+I+gFR4rCokaKdaX+yqdSdfxM/3FUjTaT4h89etRO8R/HjYnKD4rdX0rxo/Z4yimnyEUXXWTnZeK1116TDz74QObNm8frXybxqxqhiapxI35Vk9RrlEp7sL9e20QKg1gixfmRmuRavpyb6kAJH1L4kcJ0cURTHSmEEanyKdOb+m5kKzi/OKUVf39/vySTSVmwYIG9brJ37167X6uqqspe5/Uv7/iVcM6cOXNMDGFKOCGMSNFUV4KpCyeOjxTHR2qSa/nyEk6g1zh1M4XT9GN/pPl+cPzilF78b731lj295IILLnByRtm3b589/ebss892cnj9Gf9RW/AQvxJDZaZwmn4Y/ADHx7pJruXzJJxAb0orMdQNfqSoJps+YDbFVb4ilw8O8ItTWvFDPDESqkbL33jjDXuGhi6agNe/PONXIqfiR40T6KIIQ3chUjTVTR9MHT9TV0Cu5fMtnACpMiWcqimu+wCOj2WvH5yCX5zSjR/iiX+4AF8AUzQBrz/jhwCq+HVRBKoP0xROgFQdP3ThhF8XPrU7Upjyq6a88qk014Jl8g8PD9up+o9j4vf4cfeXUvzoykH/Jbp3kI/1N9980/afe+65dpML2+H3Y2BY5/Vn/ADx64KoUnPwx9wGx1d+N3ItX17CCfTBHVMYkWJ/PV+h+93Idn7eOMUfP5rgeHQOhoEh9EfhfsI+6r7CFwDbIoWwQmAhnvDDeP3LN34Inx6/Lo7YXwmjnq/Q+zjdyLV8nqYjAd2vCyLAOvy6MJrbmH2cJtnOzxuneOOHD49KomaJaUiZmpuZQDMN+6Pmeeqpp2Y8B4giPlBoP+//0fhnzZplpwoljtjfFE4F1oMqny/hBNmE0fT7LThvnOKMHzVGzMU87bTTPAumCQT0/ffft8UXNVaduMav8Ovn/e8evy6cwOzDNP1+y5d3U13364fQ/aZognyOr8Mbp/jix5uR0NyeO3fuuC4eP+Af9ODgoN3M19+QFMf4dfz6ef9njj9TjVKveQZVvkDeAI+C6YVTqHxa+dqhQ4fsvky8yQg3o9s2+RgEE8dEnxXO4bYNrbzMJFN+EAT60xl6EIUqMCke0KRGTRNP/aBfMmhwTNRicQ41TYeUL2HqT/B3s4YZiDJS+qCWiX5IvNCjEKKpwLFxDpwL5ySlj5umwMKkoMKZCbegaaVlGAjCezfVixZysnSv/KD5VzK9+X/k1bSLP4PhHDgXzunmp5WWxYFIhJOUNhhBB+aId1aG3pdXjlnpsffkv38/mpUr6lysdZIw8D0dyaTQfo4qxj9+NJsx0o1nzz3xxxfkm7/8g3RYi//85/VyR+1odq5ANDFQhClPUcYPCuXn/R+P+FnjJIGCZ8wxDc2zaAYAnizCuVEGQgpJIPM4dQrt53/ceMePt7TjlkKtzzM+a5wAtV30g+HJIjei/nz8+nn/s8ZJShA0lz33bQYIarrq6TVCCgVrnAZx98c9fvwQG2qbEzbVU/vkZ79+VTrMcZzPRmTvsREZsBbPSSTkHPOnt6efLvd88ypZOIEu4wUiqHW6/XQwiPrz8evn/c8aJylBcGNletehYqD7NVl3OC3PfmyYI5rgD1at8Qv+w2/Lfd1/dLZwB+dWNzchhYLCSQIFbz7KNuG9ctEl8usFc+We+YadPV3Ur61/bY6Lf/45sm7RXGcLd3BulIGQQsKmukHc/XGPv6+vT6qrq501jwQwOAQmKkPUn49fP+//eMTPeZwGcffHPX78amUchFP9KqZJ1J+PXz/v/3jEz6Y6IYR4hE11g7j74x4/m+qF9fP+Z42TkMyYU5EIiREUThIfKk6TP02KnJOcK187z8kjJIZQOEl8OHGBrLutXnpv+6osPNHJIySGUDgJIcQjFE5CCPEI53EaxN0f9/h9zeMMCM7jjG/5/fo5qk4IIUUK53EaxN0f9/h9zeMMCM7jjG/5/fpZ4ySEkCKFwkkIIR6hcBJCiEconIQQ4gmR/we6YgNq8eeDXgAAAABJRU5ErkJggg=='/></p><ul><li>Bagian judul</li><li>Bagian paragraf</li><li>Bagian Imersif</li><li>Bagian Media</li><li>Bagian Halaman Web</li></ul>"
+      },
+      "geostoryEditMediaEditor": {
+        "title": "Redaktur Media",
+        "text": "<p>Dengan menggunakan Editor Media, Anda dapat memasukkan berbagai jenis konten media seperti: <ul> <li>gambar-gambar</li><li>video</li><li>peta</li></ul></p><p> Untuk info lebih lanjut, lihat panduan pengguna terkait <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/'>di sini</a>"
+      }
+    },
+    "userSession": {
+      "saveErrorNotification": {
+        "titleContext": "Penyimpanan sesi pengguna gagal",
+        "categoryError": "Gagal membuat kategori \"{categoryName}\" yang hilang",
+        "defaultMessage": "Kesalahan yang tidak diketahui"
+      },
+      "removeErrorNotification": {
+        "titleContext": "Penghapusan sesi pengguna gagal",
+        "defaultMessage": "Kesalahan yang tidak diketahui"
+      },
+      "tooltip": "Hapus sesi pengguna saat ini yang disimpan",
+      "successRemoved": "Sesi pengguna dihapus",
+      "remove": "Atur Ulang Sesi Pengguna",
+      "confirmRemove": "Apakah Anda yakin ingin mengembalikan konfigurasi default?"
+    },
+    "streetView": {
+      "title": "Tampilan Jalan",
+      "description": "Alat tampilan jalan untuk menjelajahi gambar tampilan jalan Google dari peta",
+      "tooltip": "Buka alat tampilan jalan",
+      "emptyTitle": "Tampilan Jalan",
+      "emptyDescription": "Klik pada peta untuk mulai menjelajahi gambar tampilan jalan",
+      "messages": {
+        "noDataForPosition": "tidak ada data tampilan jalan untuk posisi ini",
+        "unknownError": "kesalahan yang tidak diketahui, lihat konsol"
+      }
+    }
+  }
+}

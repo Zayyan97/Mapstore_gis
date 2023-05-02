@@ -1,0 +1,1 @@
+(self.webpackChunkMyMapStoreProject=self.webpackChunkMyMapStoreProject||[]).push([[6111],{36111:(e,t,r)=>{"use strict";r.r(t),r.d(t,{default:()=>o});var a=r(84922),c=r(79958),s=r.n(c);const o=(0,a.Z)(s())}}]);
